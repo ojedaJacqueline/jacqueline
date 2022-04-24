@@ -38,10 +38,11 @@ $routes->get('inicio', 'Home::index');
 //$routes->get('alias', 'controlador::funcion');
 $routes->get('quienes', 'Home::quienes_somos');
 $routes->get('cat', 'Home::catalogo');
-$routes->get('consul', 'Home::consultas');
+$routes->get('te', 'Home::te');
 $routes->get('comercial', 'Home::comercializacion');
 $routes->get('contacto', 'Home::contacto');
 $routes->get('terminos', 'Home::terminos_y_usos');
+$routes->get('construccion', 'Home::construccion');
 
 
 /*

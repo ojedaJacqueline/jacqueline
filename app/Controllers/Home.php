@@ -33,12 +33,12 @@ public  function catalogo()
   echo view('front/footer');
 
 }
-public  function consultas()
+public  function te()
 {
- $data['titulo']='consultas';
+ $data['titulo']='tendencias';
    echo view('front/head',$data);
    echo view('front/navBar');
-   echo view('front/consultas');
+   echo view('front/tendencia');
   echo view('front/footer');
 
 }
@@ -70,5 +70,17 @@ public  function contacto()
     echo view('front/footer');
 
  }
+
+ public  function construccion()
+ {
+  $data['titulo']=' en_construccion';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('front/en_construccion');
+    echo view('front/footer');
+
+ }
+
+
 
 }
