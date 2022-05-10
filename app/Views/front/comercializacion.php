@@ -85,12 +85,15 @@
   </div>
 </div>
 <br>
+
+
+
 <!-------------------Container--------------------------------------------->
 <div class="container">
   <!-------------------Fila--------------------------------------------->
   <div class="row">
     <!-------------------Columna1--------------------------------------------->
-    <div class="col-md-8 col-lg-6 col-xl-5 mx-auto">
+    <div class="col-md-8 col-lg-6 col-xl-5 mx-auto py-4">
       <img class="rounded" src="public/assets/img/cvc.jpg" style="width:100%">
     </div>
     <!-------------------FinColumna1--------------------------------------------->

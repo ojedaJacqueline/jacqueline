@@ -12,11 +12,11 @@
           <h6 class="text-uppercase mb-4 font-weight-bold"></h6>
           <p><a class="text-white"  href="<?php echo base_url('inicio');?>">Inicio</a> </p>   
           <p><a class="text-white" href="<?php echo base_url('quienes');?>">¿Quiénes Somos?</a></p>         
-          <a class="nav-link dropdown-toggle text-white"  href="#" role="button" data-bs-toggle="dropdown"> <u>Cátalogo</u></a>
+          <a class="nav-link dropdown-toggle text-white"  href="#" role="button" data-bs-toggle="dropdown"> <u>Catálogo</u></a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">SACOS</a></li>
-            <li><a class="dropdown-item" href="#">CARTERAS</a></li>
-            <li><a class="dropdown-item" href="#">PANTALONES</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">SACOS</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">CARTERAS</a></li>
+            <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">PANTALONES</a></li>
           </ul>
           <p><a class="text-white" href="<?php echo base_url('consul');?>">Consultas</a></p>
           <p><a class="text-white" href="<?php echo base_url('comercial');?>">Comercialización</a></p>

@@ -16,7 +16,7 @@
               <a class="nav-link" href="<?php echo base_url('quienes'); ?>">¿Quiénes Somos?</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="<?php echo base_url('ventas_resumen'); ?>" role="button" data-bs-toggle="dropdown">Cátalogo</a>
+              <a class="nav-link dropdown-toggle" href="<?php echo base_url('construccion'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">SACOS</a></li>
                 <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">CARTERAS</a></li>
@@ -35,7 +35,16 @@
             <li class="nav-item">
               <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y usos</a>
             </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('registro'); ?>">Registrarse<img src="public/assets/img/user.svg" alt="ingresar"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="<?php echo base_url('#'); ?>">Ingresar <img src="public/assets/img/log-in.svg" alt="ingresar"></a>
+            </li>
+
         </div>
+       
       </div>
     </nav>
   </header>

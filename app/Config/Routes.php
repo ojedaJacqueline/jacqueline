@@ -44,6 +44,11 @@ $routes->get('contacto', 'Home::contacto');
 $routes->get('terminos', 'Home::terminos_y_usos');
 $routes->get('construccion', 'Home::construccion');
 
+$routes->get('registro', 'Usuario_controller::create');
+$routes->post('enviar-form', 'Usuario_controller::formValidation');
+
+$routes->get('login', 'Login_controller::login');
+$routes->post('enviar-form', 'Login_controller::formValidation');
 
 /*
  * --------------------------------------------------------------------

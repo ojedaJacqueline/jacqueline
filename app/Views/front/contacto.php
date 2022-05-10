@@ -39,7 +39,7 @@
     </div>
     <!-------------------FinColumna1--------------------------------------------->
     <!-------------------Columna2--------------------------------------------->
-    <div class="container-fluid col-md-10 col-lg-11 col-xl-5 mx-auto ">
+    <div class="container-fluid col-md-10 col-lg-11 col-xl-5 mx-auto py-5 ">
       <img class="rounded" src="public/assets/img/contactanos.jpg" style="width:100%">
     </div>
     <!-------------------FinColumna2--------------------------------------------->
