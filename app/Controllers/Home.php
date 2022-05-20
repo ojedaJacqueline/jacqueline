@@ -81,6 +81,14 @@ public  function contacto()
 
  }
 
+ public  function login()
+ {
+  $data['titulo']=' login';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/login');
+    echo view('front/footer');
 
+ }
 
 }

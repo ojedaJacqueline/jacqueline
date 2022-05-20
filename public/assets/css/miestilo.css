@@ -75,4 +75,50 @@ video{
 	0px 0px 7px rgba(0,0,0,0.4);
 }
 
+.btn1{
+     border: none;
+     outline: none;
+     height: 60px;
+     width: 100%;
+    background:black;
+    color: white;
+     border-radius: 4px;
+     font-weight: bold;
+}
+.btn1:hover{
+    background:white;
+    border: 1px solid;
+    color: black;
+}
 
+input{
+  height: 60px;
+  width: 100%;
+
+}
+
+input:hover{
+  background:white;
+  border: 1px solid;
+  color: rgb(59, 237, 175);
+}
+
+.card-details{
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card-details .card-box{
+  width: calc(100%/2 - 20px);
+  margin-bottom: 15px;
+
+}
+
+.card-box{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+
+}

@@ -38,7 +38,7 @@ class Usuario_controller extends Controller{
                 'apellido' => $this->request->getVar('apellido'),
                 'usuario' => $this->request->getVar('usuario'),
                 'email'  => $this->request->getVar('email'),
-                'password'  => $this->request->getVar('password'),
+                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
             ]);  
               return $this->response->redirect(site_url(''));
         }

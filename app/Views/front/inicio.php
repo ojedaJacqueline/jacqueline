@@ -39,53 +39,162 @@
   </div>
   <br>
   <br>
-  <div class="col-md-2 col-lg-5 col-xl-10 mx-auto">
+  <!-- video -->
+  <div class="container text-center col-md-2 col-lg-5 col-xl-10 mx-auto">
     <video src="public/assets/img/alessandria.mp4" controls>
       <p><a href="public/assets/img/video1.mp4"></a></p>
     </video>
   </div>
+
   <!-------------------TARJETAS------------------------------------------- -->
-  <figcaption class="tamaño">
-    -Cátalogo</cite>
-  </figcaption>
+ 
+  <section class="shop container "  style="background:white;">
+  <h1>-Catálogo</h1>
   <br>
   <br>
-  <!-------------------TARJETAS--------------------------------------------->
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="public/assets/img/ini1.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Cargo</h4>
-            <p class="card-text">Descripción</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
+  <div class="shop-content">
+        <!-- box1 -->
+        <div class="product-box">
+          <img src="public/assets/img/cha1.jpg" alt="" class="product-img">
+          <h2 class="product-title">CHALECO CHIC NEGRO</h2>
+          <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#unoModal"></i>
         </div>
+
+        <!-- box1 -->
+        <div class="product-box">
+          <img src="public/assets/img/cargo12.jpg" alt="" class="product-img">
+          <h2 class="product-title">PANTALÓN CARGO</h2>
+          <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#dosModal"></i>
+        </div>
+        <!-- box1 -->
+        <div class="product-box">
+          <img src="public/assets/img/cha2.jpg" alt="" class="product-img">
+          <h2 class="product-title">CHALECO CHIC ROSA</h2>
+          <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#tresModal"></i>
+        </div>
+           <!-- box1 -->
+           <div class="product-box">
+          <img src="public/assets/img/pan123.jpg" alt="" class="product-img">
+          <h2 class="product-title">PANTALÓN RECTO NEGRO</h2>
+          <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#cuatroModal"></i>
+        </div>
+        </div>
+  </section>
+
+</div>
+
+<br>
+<br>
+
+<!-- modal -->
+<!-- The Modal 1-->
+<div class="modal fade" id="unoModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">CHALECO CHIC NEGRO</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
-      <br>
-      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="public/assets/img/bolsos/bolso1.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Cartera</h4>
-            <p class="card-text">Descripción</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+      <p>Detalles: </p> 
+     <p>Con bolsillos.</p>
+     <p>Cierre metalizado.</p> 
+     <p>Color:Negro</p>
       </div>
-      <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
-        <div class="card" style="width:300px">
-          <img class="card-img-top" src="public/assets/img/ini2.jpg" alt="Card image" style="width:100%">
-          <div class="card-body">
-            <h4 class="card-title">Pantalón</h4>
-            <p class="card-text">Descripción</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
-          </div>
-        </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
       </div>
     </div>
   </div>
 </div>
-<br>
-<br>
+<!-- The Modal 2-->
+<div class="modal fade" id="dosModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">PANTALÓN CARGO</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <!-- Modal body -->
+      <div class="modal-body">
+     <p>Detalles:</p>
+     <p>Con cierre metálico central.</p>
+     <p>Botón interno en cintura.</p>
+     <p>Bolsillos a la vista.</p>
+      <p>Color:Verde</p>
+      </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- The Modal 3-->
+<div class="modal fade" id="tresModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">CHALECO CHIC ROSA</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <p>Detalles: </p> 
+     <p>Con bolsillos</p>
+     <p>Cierre metalizado </p> 
+     <p>Color:Rosa</p>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+<!-- The Modal 4-->
+<div class="modal fade" id="cuatroModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">PANTALÓN RECTO NEGRO</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+     <p>Detalles: </p> 
+     <p>Confeccionado en twill sastrero</p>
+     <p>Calce recto y tiro bien alto.</p> 
+     <p>Composición:76%Poliester 20%Rayón 4%Elastano</p>
+     <p>Color:Negro</p>
+
+
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+      </div>
+
+    </div>
+  </div>
+</div>

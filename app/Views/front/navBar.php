@@ -37,12 +37,18 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('registro'); ?>">Registrarse<img src="public/assets/img/user.svg" alt="ingresar"></a>
+              <a class="nav-link" href="<?php echo base_url('registro'); ?>">Registrarse <img src="public/assets/img/user.svg" alt="ingresar"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?php echo base_url('#'); ?>">Ingresar <img src="public/assets/img/log-in.svg" alt="ingresar"></a>
+              <a class="nav-link" href="<?php echo base_url('login'); ?>">Ingresar <img src="public/assets/img/log-in.svg" alt="ingresar"></a>
             </li>
-
+            <li class="nav-item">
+              <a class="nav-link"  style="color:lightskyblue;" href="">HOLA, Julia</a>
+            </li>
+            <!-- TODO:icono carrito -->
+            <li class="nav-item">
+            <a class="nav-link" href=""><img src="public/assets/img/carrito.svg" alt="ingresar"></a>
+            </li>
         </div>
        
       </div>

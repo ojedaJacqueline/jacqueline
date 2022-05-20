@@ -1,10 +1,11 @@
+
 <div class="container mt-1 mb-0">
 	<div class="card" style="width: 50%;" >
 		<div class= "card-header text-center">
 			<h2>Agregar usuarios</h2>
 		</div>
 	
- <?php $validation=\Config\Services::validation(); ?>
+ <?php $validation = \Config\Services::validation(); ?>
      <form method="post" action="<?php echo base_url('enviar-form') ?>">
  
 <div class ="card-body" media="(max-width:768px)">
@@ -48,6 +49,7 @@
             </div>
         <?php }?>
 	</div>
+	
 	<div class="mb-3">
  	 <label for="exampleFormControlInput1" class="form-label">Password</label>
  	 <input name="password" type="password" class="form-control"  placeholder="password">
