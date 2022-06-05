@@ -91,11 +91,7 @@ video{
     color: black;
 }
 
-input{
-  height: 60px;
-  width: 100%;
 
-}
 
 input:hover{
   background:white;

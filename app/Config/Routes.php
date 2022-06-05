@@ -55,6 +55,30 @@ $routes->get('panel', 'Panel_controller::index');
 $routes->get('logout', 'Login_controller::logout');
 
 
+/*RUTAS ADMINISTRADOR */
+$routes->get('inicio administrador', 'Home::inicioAdm');
+$routes->get('consulNolog', 'Home::consultasNoLog');
+$routes->get('consulLog', 'Home::consultasLog');
+$routes->get('userInactivo', 'Home::miAdmUserInactivos');
+$routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
+$routes->get('userMod', 'Home::modificarUser');
+
+
+/* RUTAS CLIENTES */
+//RUTAS PRODUCTOS
+$routes->get('agregarp', 'Home::store');
+$routes->get('produc', 'Home::productos');
+$routes->get('modificaProd', 'Home::productosModifica');
+$routes->get('prodInactivos', 'Home::productosInactivos');
+
+
+
+
+
+
+
+
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

@@ -9,13 +9,12 @@ class Login_controller extends Controller
     {
         helper(['form','url']);
 
-         $dato['titulo']='login'; 
+        $dato['titulo']='login'; 
         echo view('front/head',$dato);
         echo view('front/navBar');
         echo view('back/login');
         echo view('front/footer');
     } 
-  
     public function auth()
     {
         $session = session();
@@ -34,25 +33,24 @@ class Login_controller extends Controller
                     'email' =>  $data['email'],
                     'usuario' => $data['usuario'],
                     'perfil_id'=> $data['perfil_id'],
-                    'logged_in'     => TRUE
+                    'logged_in' => TRUE
                 ];
+                
                 $session->set($ses_data);
                 return redirect()->to('panel');
             }else{
                 $session->setFlashdata('msg', 'Password Incorrecta');
                 return redirect()->to('/login_controller');
-            
             }
         }else{
             $session->setFlashdata('msg', 'Email Incorrecto');
             return redirect()->to('/login_controller');
         }
     }
-  
     public function logout()
     {
         $session = session();
         $session->destroy();
-        return redirect()->to('/login_controller');
+        return redirect()->to('/Login_Controller');
     }
 } 

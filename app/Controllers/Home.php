@@ -91,4 +91,105 @@ public  function contacto()
 
  }
 
+
+/* ADMINISTRADOR */
+public function inicioAdm()
+{
+$dato['titulo']='inicio Adm'; 
+echo view('front/head',$dato);
+echo view('front/navBar');
+echo view('back/administrador/inicioAdm');
+echo view('front/footer');
+}
+ public  function consultasNoLog()
+ {
+  $data['titulo']=' consultasNoLog';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/consultasNoLog');
+    echo view('front/footer');
+ }
+
+ public  function consultasLog()
+ {
+  $data['titulo']='consultasLog';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/consultasLog');
+    echo view('front/footer');
+ }
+  
+ public  function miAdmUserInactivos()
+ {
+  $data['titulo']='miAdmUserInactivos';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/miAdmUserInactivos');
+    echo view('front/footer');
+ } 
+
+
+ public  function modificarUser()
+ {
+  $data['titulo']='modificarUser';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/modificarUser');
+    echo view('front/footer');
+ } 
+
+
+ public  function productos()
+ {
+  $data['titulo']='productoLista';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/productoLista');
+    echo view('front/footer');
+ } 
+
+ public  function productosModifica()
+ {
+  $data['titulo']='productoLista';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/modificarProd');
+    echo view('front/footer');
+ } 
+ public  function productosInactivos()
+ {
+  $data['titulo']='productoLista';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/productoInactivos');
+    echo view('front/footer');
+ }
+ public  function ventas()
+ {
+  $data['titulo']='ventas';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/ventas');
+    echo view('front/footer');
+ } 
+
+ /* CLIENTE */
+ public  function carrito()
+ {
+  $data['titulo']=' login';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/cliente/miCarrito');
+    echo view('front/footer');
+ } 
+
+ public  function micatalogo()
+ {
+  $data['titulo']=' login';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/cliente/miCatalogo');
+    echo view('front/footer');
+ } 
+
 }
