@@ -31,10 +31,11 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
+/* ------------------------------------------- */
+/* RUTRAS GENERALES */
 //$routes->get('/', 'Home::index');
 $routes->get('inicio', 'Home::index');
 //$routes->get('Home/(:num)','Home::index');
-
 //$routes->get('alias', 'controlador::funcion');
 $routes->get('quienes', 'Home::quienes_somos');
 $routes->get('cat', 'Home::catalogo');
@@ -48,28 +49,36 @@ $routes->get('registro', 'Usuario_controller::create');
 $routes->post('enviar-form', 'Usuario_controller::formValidation');
 
 $routes->get('login', 'Home::login');
+//$routes->get('login', 'Login_controller');
 
-$routes->get('login', 'Login_controller');
 $routes->post('enviarlogin', 'Login_controller::auth');
 $routes->get('panel', 'Panel_controller::index');
-$routes->get('logout', 'Login_controller::logout');
-
-
+$routes->get('/salir', 'Login_controller::salir');
+/* ----------------------------------------------------------- */
 /*RUTAS ADMINISTRADOR */
+//RUTAS USUARIO
 $routes->get('inicio administrador', 'Home::inicioAdm');
-$routes->get('consulNolog', 'Home::consultasNoLog');
-$routes->get('consulLog', 'Home::consultasLog');
 $routes->get('userInactivo', 'Home::miAdmUserInactivos');
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
-$routes->get('userMod', 'Home::modificarUser');
+$routes->get('userMod', 'Usuario_crud_controller::fetch_single_data');
+$routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 
-/* RUTAS CLIENTES */
+
+
 //RUTAS PRODUCTOS
 $routes->get('agregarp', 'Home::store');
 $routes->get('produc', 'Home::productos');
 $routes->get('modificaProd', 'Home::productosModifica');
 $routes->get('prodInactivos', 'Home::productosInactivos');
+
+//RUTAS CONSULTAS
+$routes->get('consulNolog', 'Home::consultasNoLog');
+$routes->get('consulLog', 'Home::consultasLog');
+
+/* --------------------------------------------- */
+/*RUTAS CLIENTE */
+
 
 
 

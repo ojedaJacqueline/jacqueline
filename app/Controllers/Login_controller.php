@@ -40,17 +40,17 @@ class Login_controller extends Controller
                 return redirect()->to('panel');
             }else{
                 $session->setFlashdata('msg', 'Password Incorrecta');
-                return redirect()->to('/login_controller');
+                return redirect()->to('/Login_controller');
             }
         }else{
             $session->setFlashdata('msg', 'Email Incorrecto');
-            return redirect()->to('/login_controller');
+            return redirect()->to('/Login_controller');
         }
     }
-    public function logout()
+    public function salir()
     {
         $session = session();
         $session->destroy();
-        return redirect()->to('/Login_Controller');
+        return redirect()->to(base_url('inicio'));
     }
 } 

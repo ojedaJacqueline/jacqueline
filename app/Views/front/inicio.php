@@ -49,7 +49,7 @@
   <!-------------------TARJETAS------------------------------------------- -->
  
   <section class="shop container "  style="background:white;">
-  <h1>-Catálogo</h1>
+  <h1>Algunos de Nuestros Productos</h1>
   <br>
   <br>
   <div class="shop-content">
@@ -59,7 +59,6 @@
           <h2 class="product-title">CHALECO CHIC NEGRO</h2>
           <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#unoModal"></i>
         </div>
-
         <!-- box1 -->
         <div class="product-box">
           <img src="public/assets/img/cargo12.jpg" alt="" class="product-img">
@@ -79,19 +78,19 @@
           <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#cuatroModal"></i>
         </div>
         </div>
+        <div>
+          <br>
+          <h2>Encontra todo lo que estás buscando en la sección de catálogo o haciendo click aquí <button type="button" class="btn btn-link"><h2>Cátalogo</h2></button></h2>
+        </div>
   </section>
-
 </div>
-
 <br>
 <br>
-
 <!-- modal -->
 <!-- The Modal 1-->
 <div class="modal fade" id="unoModal">
   <div class="modal-dialog">
     <div class="modal-content">
-
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">CHALECO CHIC NEGRO</h4>
@@ -139,13 +138,11 @@
 <div class="modal fade" id="tresModal">
   <div class="modal-dialog">
     <div class="modal-content">
-
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">CHALECO CHIC ROSA</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
-
       <!-- Modal body -->
       <div class="modal-body">
       <p>Detalles: </p> 
@@ -153,7 +150,6 @@
      <p>Cierre metalizado </p> 
      <p>Color:Rosa</p>
       </div>
-
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
@@ -161,24 +157,15 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
 <!-- The Modal 4-->
 <div class="modal fade" id="cuatroModal">
   <div class="modal-dialog">
     <div class="modal-content">
-
       <!-- Modal Header -->
       <div class="modal-header">
         <h4 class="modal-title">PANTALÓN RECTO NEGRO</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
-
       <!-- Modal body -->
       <div class="modal-body">
      <p>Detalles: </p> 
@@ -186,10 +173,7 @@
      <p>Calce recto y tiro bien alto.</p> 
      <p>Composición:76%Poliester 20%Rayón 4%Elastano</p>
      <p>Color:Negro</p>
-
-
       </div>
-
       <!-- Modal footer -->
       <div class="modal-footer">
         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
