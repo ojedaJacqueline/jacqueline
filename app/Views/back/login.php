@@ -24,7 +24,7 @@
                         <input type="password" name="password" class="form-control" id="InputForPassword"placeholder="escribir contraseña">
                     </div>
                     <button type="submit" class="btn btn-success">Ingresar</button>
-                    <button type="reset" class="btn btn-danger">cancelar</button>
+                    <button type="reset" class="btn btn-danger">Cancelar</button>
 
                 </form>
                 <br>
