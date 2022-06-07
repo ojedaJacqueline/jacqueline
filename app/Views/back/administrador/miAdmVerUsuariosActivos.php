@@ -7,7 +7,7 @@
       <div class="col-md-7">
         <!------------- BOTON DE USUARIOS INACTIVOS ------------------->
         <div class="d-grid">
-          <a class="btn btn-danger" href="<?php echo base_url('userInactivo'); ?>">Ver usuarios inactivos</a>
+          <a class="btn btn-danger" href="<?php echo base_url('userInactivo'); ?>">Ver Usuarios Inactivos</a>
         </div>
         <!-------------//FIN// BOTON DE USUARIOS INACTIVOS ------------------->
         <br>
@@ -19,7 +19,7 @@
           <div class="table-responsive">
             <table class="table d-flex ">
               <tr class="table-info">
-                <th>id</th>
+                <th>Id</th>
                 <th>Nombre</th>
                 <th>Apellido</th>
                 <th>Email</th>
@@ -27,7 +27,7 @@
                 <th>Perfil</th>
                 <th>Baja</th>
                 <th>Editar</th>
-                <th>Eliminar</th>
+                <th>Inactivar</th>
               </tr>
               <?php
               if ($user_data) {

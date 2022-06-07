@@ -39,11 +39,11 @@ class Login_controller extends Controller
                 $session->set($ses_data);
                 return redirect()->to('panel');
             }else{
-                $session->setFlashdata('msg', 'Password Incorrecta');
+                $session->setFlashdata('msg', 'Contraseña Incorrecta');
                 return redirect()->to('/Login_controller');
             }
         }else{
-            $session->setFlashdata('msg', 'Email Incorrecto');
+            $session->setFlashdata('msg', 'Correo electrónico Incorrecto');
             return redirect()->to('/Login_controller');
         }
     }

@@ -7,58 +7,19 @@
       <div class="mb-3">
         <label class="form-label">Nombre</label>
         <input type="text" class="form-control" name="textNombre" autofocus>
-        <!-- Error -->
-        <?php
-        if ($validation->getError('nombre')) {
-          echo "
-                            <div class='alert alert-danger mt-2'>
-                            " . $validation->getError('nombre') . "
-                            </div>
-                            ";
-        }
-        ?>
       </div>
       <div class="mb-3">
         <label class="form-label">Apellido
         </label>
         <input type="text" class="form-control" name="textNombre" autofocus>
-        <!-- Error -->
-        <?php
-        if ($validation->getError('apellido')) {
-          echo "
-                            <div class='alert alert-danger mt-2'>
-                            " . $validation->getError('apellido') . "
-                            </div>
-                            ";
-        }
-        ?>
       </div>
       <div class="mb-3">
         <label class="form-label">Usuario</label>
         <input type="text" class="form-control" name="textNombre" autofocus>
-        <!-- Error -->
-        <?php
-        if ($validation->getError('usuario')) {
-          echo "
-                            <div class='alert alert-danger mt-2'>
-                            " . $validation->getError('usuario') . "
-                            </div>
-                            ";
-        }
-        ?>
       </div>
       <div class="mb-3">
         <label class="form-label">Email</label>
         <input type="email" class="form-control" name="textNombre" autofocus>
-        <?php
-        if ($validation->getError('email')) {
-          echo "
-                            <div class='alert alert-danger mt-2'>
-                            " . $validation->getError('email') . "
-                            </div>
-                            ";
-        }
-        ?>
       </div>
       <div class="mb-3">
         <label class="form-label">Perfil</label>

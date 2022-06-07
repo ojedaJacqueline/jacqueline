@@ -60,7 +60,7 @@ $routes->get('/salir', 'Login_controller::salir');
 $routes->get('inicio administrador', 'Home::inicioAdm');
 $routes->get('userInactivo', 'Home::UserInactivos');
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
-$routes->get('userMod', 'Usuario_crud_controller::fetch_single_data');
+$routes->get('userMod', 'Home::UserMod');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 

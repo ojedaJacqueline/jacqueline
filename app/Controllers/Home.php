@@ -128,7 +128,14 @@ echo view('front/footer');
     echo view('front/footer');
  } 
 
-
+ public  function UserMod()
+ {
+  $data['titulo']='UserInactivos';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/modificarUser');
+    echo view('front/footer');
+ } 
 
  public  function productos()
  {
