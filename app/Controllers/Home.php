@@ -119,12 +119,12 @@ echo view('front/footer');
     echo view('front/footer');
  }
   
- public  function miAdmUserInactivos()
+ public  function UserInactivos()
  {
-  $data['titulo']='miAdmUserInactivos';
+  $data['titulo']='UserInactivos';
     echo view('front/head',$data);
     echo view('front/navBar');
-    echo view('back/administrador/miAdmUserInactivos');
+    echo view('back/administrador/UserInactivos');
     echo view('front/footer');
  } 
 

@@ -58,7 +58,7 @@ $routes->get('/salir', 'Login_controller::salir');
 /*RUTAS ADMINISTRADOR */
 //RUTAS USUARIO
 $routes->get('inicio administrador', 'Home::inicioAdm');
-$routes->get('userInactivo', 'Home::miAdmUserInactivos');
+$routes->get('userInactivo', 'Home::UserInactivos');
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
 $routes->get('userMod', 'Usuario_crud_controller::fetch_single_data');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');

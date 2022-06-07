@@ -1,28 +1,32 @@
 <br>
 <h1>Lista de Productos</h1>
+
 <div class="container mt-5">
   <div class="row justify-content-center">
+<!------------ div que contiene al boton y a la lista de prod-------------->    
     <div class="col-md-7">
+<!------------ BOTON VISTA PRODUCTOS INACTIVOS-------------->  
       <div class="d-grid">
-        <input type="hidden" name="oculto" value="1">
-        <input type="submit" class="btn" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" value="Ver Productos Inactivos">
+      <a class="btn" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" href="<?php echo base_url('prodInactivos'); ?>">Ver Productos Inactivos</a>
       </div>
       <br>
+<!------------//FIN// BOTON VISTA PRODUCTOS INACTIVOS-------------->
+<!------------ LISTA DE PRODUCTOS-------------->
       <div class="card">
-        <div class="card-header">
+        <div class="card-header"style="color:darkgreen;">
           PRODUCTOS ACTIVOS
         </div>
         <div class="table-responsive">
           <table class="table d-flex ">
             <tr class="table-success">
-              <th scope="col">Id</th>
-              <th scope="col">Categoria</th>
-              <th scope="col">Cantidad</th>
-              <th scope="col">Nombre</th>
-              <th scope="col">Precio</th>
-              <th scope="col">Imagen</th>
-              <th scope="col">Editar</th>
-              <th scope="col">Inactivar</th>
+              <th>Id</th>
+              <th>Categoria</th>
+              <th>Cantidad</th>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Imagen</th>
+              <th>Editar</th>
+              <th>Inactivar</th>
             </tr>
             <tr>
               <td scope="row">1</td>
@@ -37,7 +41,10 @@
           </table>
         </div>
       </div>
+<!------------//FIN// LISTA DE PRODUCTOS-------------->       
     </div>
+<!------------//FIN//div que contiene al boton y a la lista de prod-------------->    
+<!------------ AGREGAR PRODUCTOS-------------->   
     <div class="col-md-4">
       <div class="card">
         <div class="card-header">
@@ -71,6 +78,7 @@
         </form>
       </div>
     </div>
+<!------------//FIN// AGREGAR PRODUCTOS-------------->  
   </div>
 </div>
 <br>

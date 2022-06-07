@@ -12,7 +12,7 @@
           <?php if (session()->get('perfil_id') == '1') : ?>
             <ul class="nav navbar-nav ml-auto">
               <li class="nav-item">
-                <a><i class="nav-link" style="color:aquamarine;">Bienvenido, Adm.<?php echo $_SESSION['nombre'] ?> </i></a>
+                <a><i class="nav-link" style="color:aquamarine;">Bienvenido, Adm. <?php echo $_SESSION['nombre'] ?> </i></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('userActivo'); ?>">CRUD Usuarios</a>

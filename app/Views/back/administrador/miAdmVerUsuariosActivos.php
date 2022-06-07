@@ -1,17 +1,17 @@
 <br>
 <h1>Usuarios</h1>
 <?php if ((session()->get('logged_in')) and session()->get('perfil_id') == '1') { ?>
- <!------------- BOTON DE USUARIOS INACTIVOS ------------------->
   <div class="container mt-5">
     <div class="row justify-content-center">
+      <!------------ div que contiene al boton y a la lista de prod-------------->
       <div class="col-md-7">
+        <!------------- BOTON DE USUARIOS INACTIVOS ------------------->
         <div class="d-grid">
-          <input type="hidden" name="oculto" value="1">
-          <input type="submit" class="btn btn-danger" value="Ver Usuarios Inactivos">
+          <a class="btn btn-danger" href="<?php echo base_url('userInactivo'); ?>">Ver usuarios inactivos</a>
         </div>
         <!-------------//FIN// BOTON DE USUARIOS INACTIVOS ------------------->
-        <!------------- LISTA DE USUARIOS ACTIVOS ------------------->
         <br>
+        <!------------- LISTA DE USUARIOS ACTIVOS ------------------->
         <div class="card">
           <div class="card-header " style="color:darkgreen;">
             USUARIOS ACTIVOS
@@ -30,10 +30,8 @@
                 <th>Eliminar</th>
               </tr>
               <?php
-              if ($user_data) 
-              {
-                foreach ($user_data as $user) 
-                {
+              if ($user_data) {
+                foreach ($user_data as $user) {
                   echo '
                  <tr>
                      <td>' . $user["id"] . '</td>
@@ -44,7 +42,7 @@
                      <td>' . $user["perfil_id"] . '</td>
                      <td>' . $user["baja"] . '</td>
                      <td><a href="' . base_url('userMod') . $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
-                     <td><a href="" class="btn btn-sm"><img src="public/assets/img/trash.svg" alt=""></a></td>
+                     <td><a href="" class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
                 </tr>';
                 }
               }
@@ -52,8 +50,9 @@
             </table>
           </div>
         </div>
+        <!-------------//FIN// LISTA DE USUARIOS ACTIVOS ------------------->
       </div>
-      <!-------------//FIN// LISTA DE USUARIOS ACTIVOS ------------------->
+      <!------------//FIN//  div que contiene al boton y a la lista de prod-------------->
       <!-------------AGREGAR USUARIOS ------------------->
       <div class="col-md-4">
         <div class="card">
@@ -93,10 +92,10 @@
           </form>
         </div>
       </div>
+      <!-------------//FIN//AGREGAR USUARIOS ------------------->
     </div>
   </div>
   <br>
-  <!-------------//FIN//AGREGAR USUARIOS ------------------->
 
 
 <?php } else { ?>
