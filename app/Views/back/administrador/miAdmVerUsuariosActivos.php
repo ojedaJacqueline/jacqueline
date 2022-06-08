@@ -41,7 +41,7 @@
                      <td>' . $user["usuario"] . '</td>
                      <td>' . $user["perfil_id"] . '</td>
                      <td>' . $user["baja"] . '</td>
-                     <td><a href="' . base_url('userMod') . $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
+                     <td><a href="' . base_url().'/Usuario_crud_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
                      <td><a href="" class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
                 </tr>';
                 }

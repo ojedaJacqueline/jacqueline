@@ -60,7 +60,8 @@ $routes->get('/salir', 'Login_controller::salir');
 $routes->get('inicio administrador', 'Home::inicioAdm');
 $routes->get('userInactivo', 'Home::UserInactivos');
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
-$routes->get('userMod', 'Home::UserMod');
+
+$routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 
@@ -79,6 +80,11 @@ $routes->get('consulLog', 'Home::consultasLog');
 /* --------------------------------------------- */
 /*RUTAS CLIENTE */
 $routes->get('carrito', 'Carrito_controller::carrito');
+$routes->get('todos_los_productos', 'Carrito_controller::catalogo');
+$routes->get('actualizarCarrito', 'Carrito_controller::actualizar_carrito');
+$routes->get('agregarCarrito', 'Carrito_controller::add');
+$routes->get('muestro', 'Carrito_controller::muestra');
+$routes->get('borrar', 'Carrito_controller::borrar_carrito');
 
 
 
