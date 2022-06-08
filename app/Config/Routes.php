@@ -68,7 +68,7 @@ $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 //RUTAS PRODUCTOS
 $routes->get('agregarp', 'Home::store');
-$routes->get('produc', 'Home::productos');
+$routes->get('produc', 'Producto_controller::productos');
 $routes->get('modificaProd', 'Home::productosModifica');
 $routes->get('prodInactivos', 'Home::productosInactivos');
 
@@ -78,7 +78,7 @@ $routes->get('consulLog', 'Home::consultasLog');
 
 /* --------------------------------------------- */
 /*RUTAS CLIENTE */
-
+$routes->get('carrito', 'Carrito_controller::carrito');
 
 
 

@@ -65,7 +65,7 @@
                 <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y usos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('#'); ?>"><img src="public/assets/img/bx-shopping-bag.svg" alt="carrito"></a>
+                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('carrito'); ?>"><img src="public/assets/img/bx-shopping-bag.svg" alt="carrito"></a>
               </li>
               <li class="nav-item">
                 <a><i class="nav-link" style="color:aquamarine;">HOLA, <?php echo $_SESSION['nombre'] ?> </i></a>

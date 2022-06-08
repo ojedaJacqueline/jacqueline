@@ -17,7 +17,7 @@ class Usuario_crud_controller extends Controller{
         echo view('back/administrador/miAdmVerUsuariosActivos',$data);
         echo view('front/footer');
 	}
-/* ------------------------------------- */
+/* -------------------//FIN// Muestra la lista de usuarios de la BD------------------ */
 /*----------------EDITAR USUARIO-------------- */    
 
  public  function fetch_single_data($id = null)
@@ -73,6 +73,7 @@ class Usuario_crud_controller extends Controller{
           /*UPDATE ha actualizado los datos de la tabla mysql */
         }
     }
+    /*----------------//FIN//EDITAR USUARIO-------------- */ 
 
 
 

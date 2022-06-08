@@ -21,23 +21,36 @@
             <tr class="table-success">
               <th>Id</th>
               <th>Categoria</th>
-              <th>Cantidad</th>
-              <th>Nombre</th>
-              <th>Precio</th>
               <th>Imagen</th>
+              <th>Nombre</th>
+              <th>Cantidad</th>
+              <th>Cantidad min</th>
+              <th>Precio</th>
+              <th>Precio Venta</th>
+              <th>Baja</th>
               <th>Editar</th>
               <th>Inactivar</th>
             </tr>
-            <tr>
-              <td scope="row">1</td>
-              <td>roger gomez</td>
-              <td>34</td>
-              <td>leo</td>
-              <td>leo</td>
-              <td>leo</td>
-              <td><a href="'.base_url().'/crud/fetch_single_data/'.$user[" id"].'" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
-              <td><a href="" class="btn btn-sm"><img src="public/assets/img/trash.svg" alt=""></a></td>
-            </tr>
+            <?php
+              if ($prod_data) {
+                foreach ($prod_data as $user) {
+                  echo '
+                 <tr>
+                     <td>' . $user["id"] . '</td>
+                     <td>' . $user["categoria_id"] . '</td>
+                     <td>' . $user["imagen"] . '</td>
+                     <td>' . $user["nombreProd"] . '</td>
+                     <td>' . $user["stock"] . '</td>
+                     <td>' . $user["stock_min"] . '</td>
+                     <td>' . $user["precio"] . '</td>
+                     <td>' . $user["precio_venta"] . '</td>
+                     <td>' . $user["eliminado"] . '</td>
+                     <td><a href="' . base_url('userMod') . $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
+                     <td><a href="" class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
+                </tr>';
+                }
+              }
+              ?>
           </table>
         </div>
       </div>

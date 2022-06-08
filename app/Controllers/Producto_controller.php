@@ -4,9 +4,30 @@ Use App\Models\Producto_Model;
 use CodeIgniter\Controller;
 
 class Producto_controller extends Controller {
+   
+    public  function productos()
+	{
+		$crudModel = new Producto_Model();
+
+		$data['prod_data'] = $crudModel->orderBy('id', 'DESC')->paginate(10);
+
+        
+         $data['titulo']='productos';
+           echo view('front/head',$data);
+           echo view('front/navBar');
+           echo view('back/administrador/productoLista',$data);
+           echo view('front/footer');
+        } 
+	}
 
 
-    public  function ver_productos()
+    
+
+
+
+
+
+   /*   public  function ver_productos()
     {
         if((session('logged_in'))and ((session()->get('perfil_id'))==1)){
         
@@ -32,6 +53,10 @@ class Producto_controller extends Controller {
 
         }
     
+*/
+
+
+/*  
 
 
     public function store(){
@@ -81,7 +106,7 @@ class Producto_controller extends Controller {
 
     }
 
-    }
+    }*/
 
 
 

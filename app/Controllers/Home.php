@@ -137,14 +137,7 @@ echo view('front/footer');
     echo view('front/footer');
  } 
 
- public  function productos()
- {
-  $data['titulo']='productoLista';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/productoLista');
-    echo view('front/footer');
- } 
+ 
 
  public  function productosModifica()
  {

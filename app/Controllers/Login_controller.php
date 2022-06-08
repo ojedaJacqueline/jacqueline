@@ -37,6 +37,7 @@ class Login_controller extends Controller
                 ];
                 
                 $session->set($ses_data);
+                /* ruta cambiar uno para adm otro para cliente */
                 return redirect()->to('panel');
             }else{
                 $session->setFlashdata('msg', 'Contraseña Incorrecta');

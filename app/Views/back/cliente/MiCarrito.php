@@ -1,15 +1,15 @@
-<div class="color  mt-3 mt-4 p-5">
+<br>
+<br>
+<div class="container">
+        <div class="row no-gutters" style="background-color:white ; border-radius:30px; box-shadow: 12px 12px 22px grey">
+<div class="  mt-3 mt-4 p-5">
   <h1>Mi Carrito</h1>
 </div>
-
-
-
 <br>
 <br>
 <br>
 <!-- Todos los items de carrito en "$cart". -->
 <div class="row">
-
   <div class="col-md-8 container-fluid">
     <div class="float-right">
       <em></em>
@@ -39,12 +39,9 @@
       <!-- fintabel -->
     </div>
     <!-- col-md-8 container-fluid -->
-
     <div class="container-fluid border text-right">
       <b>Total: $</b>
     </div>
-
-
   </div>
   <br>
   <div class="col-md-3">
@@ -60,14 +57,11 @@
 <div class="container-fluid text-center">
   <a type="button" class="btn btn-warning btn-sm" href="">Comprar +</a>
   <!-- Borrar carrito usa mensaje de confirmacion javascript implementado en partes/head_view -->
-
   <!-- " Confirmar orden envia a carrito_controller/muestra_compra  -->
   <a type="button" class="btn btn-success btn-sm" href="">Confirmar Orden</a>
+<br>
 </div>
-
-
-
-
-
+</div>
+</div>
 <br>
 <br>
