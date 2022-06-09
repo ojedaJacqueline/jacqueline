@@ -1,0 +1,72 @@
+CRITICAL - 2022-04-05 16:36:27 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('principal', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('principal')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:37:13 --> Invalid file: principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('principal.php')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('principal.php', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('principal.php')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:41:12 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:41:13 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:41:37 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:41:46 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:42:13 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-05 16:42:16 --> Invalid file: modulo/principal.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/principa...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/principa...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(10): view('modulo/principa...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

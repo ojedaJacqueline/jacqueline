@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-15 13:33:19 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\jacqueline\app\Views\front\contacto.php(138): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 138, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('front/contacto', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('front/contacto')
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->contacto()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

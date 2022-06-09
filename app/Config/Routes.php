@@ -31,7 +31,71 @@ $routes->setAutoRoute(true);
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Home::index');
+/* ------------------------------------------- */
+/* RUTRAS GENERALES */
+//$routes->get('/', 'Home::index');
+$routes->get('inicio', 'Home::index');
+//$routes->get('Home/(:num)','Home::index');
+//$routes->get('alias', 'controlador::funcion');
+$routes->get('quienes', 'Home::quienes_somos');
+$routes->get('cat', 'Home::catalogo');
+$routes->get('te', 'Home::te');
+$routes->get('comercial', 'Home::comercializacion');
+$routes->get('contacto', 'Home::contacto');
+$routes->get('terminos', 'Home::terminos_y_usos');
+$routes->get('construccion', 'Home::construccion');
+
+$routes->get('registro', 'Usuario_controller::create');
+$routes->post('enviar-form', 'Usuario_controller::formValidation');
+
+$routes->get('login', 'Home::login');
+//$routes->get('login', 'Login_controller');
+
+$routes->post('enviarlogin', 'Login_controller::auth');
+$routes->get('panel', 'Panel_controller::index');
+$routes->get('/salir', 'Login_controller::salir');
+/* ----------------------------------------------------------- */
+/*RUTAS ADMINISTRADOR */
+//RUTAS USUARIO
+$routes->get('inicio administrador', 'Home::inicioAdm');
+$routes->get('userInactivo', 'Home::UserInactivos');//falta
+$routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
+/* editar usuario */
+$routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');
+$routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
+
+//RUTAS PRODUCTOS
+/* la vista de producto lista activos.. */
+$routes->get('produc', 'Producto_controller::productos');
+
+$routes->get('prodInactivos', 'Home::productosInactivos');//falta
+/* editar producto */
+$routes->get('add/(:num)', 'Producto_controller::add/$1');
+$routes->post('edit_validation', 'Producto_controller::edit_validation');
+/* alta producto */
+$routes->get('agregarp', 'Home::store');//falta
+
+
+//RUTAS CONSULTAS
+$routes->get('consulNolog', 'Home::consultasNoLog');
+$routes->get('consulLog', 'Home::consultasLog');
+
+/* --------------------------------------------- */
+/*RUTAS CLIENTE */
+$routes->get('carrito', 'Carrito_controller::carrito');
+$routes->get('todos_los_productos', 'Carrito_controller::catalogo');
+$routes->get('actualizarCarrito', 'Carrito_controller::actualizar_carrito');
+$routes->get('agregarCarrito', 'Carrito_controller::add');
+$routes->get('muestro', 'Carrito_controller::muestra');
+$routes->get('borrar', 'Carrito_controller::borrar_carrito');
+
+
+
+
+
+
+
+
 
 /*
  * --------------------------------------------------------------------

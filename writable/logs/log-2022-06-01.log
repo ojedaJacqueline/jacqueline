@@ -1,0 +1,87 @@
+CRITICAL - 2022-06-01 00:10:32 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:10:38 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:12:19 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:17:16 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:17:19 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 00:20:57 --> Undefined variable: data1
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\miAdmVerUsuariosActivos.php(32): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(16): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 14:49:33 --> Call to undefined method App\Models\Usuarios_model::mostrar_usuarios
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(12): CodeIgniter\Model->__call('mostrar_usuario...', Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 14:56:39 --> Call to undefined method App\Models\Usuarios_model::mostrar_usuarios
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(12): CodeIgniter\Model->__call('mostrar_usuario...', Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-01 14:57:47 --> Call to undefined method App\Models\Usuarios_model::mostrar_usuarios
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Usuario_crud_controller.php(12): CodeIgniter\Model->__call('mostrar_usuario...', Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Usuario_crud_controller->miAdmVerUsuariosActivos()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuario_crud_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,1262 @@
+CRITICAL - 2022-04-08 13:01:55 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:01:59 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:00 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:02 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:04 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:06 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:07 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:09 --> Invalid file: modulo/comercializcion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:20 --> Invalid file: modulo/comercializcion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:02:25 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:20 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:21 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:45 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:47 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:50 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:52 --> Invalid file: modulo/comercializcion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:53 --> Invalid file: modulo/terminosyusos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/terminos...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/terminos...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('modulo/terminos...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:17:58 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:52:32 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:52:33 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 13:55:22 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:01:27 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:01:43 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:02:37 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:04:21 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:05:34 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:06:07 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:06:55 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:06:59 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:07:02 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:07:03 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:07:05 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:36 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:41 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:43 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:45 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:47 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:49 --> Invalid file: modulo/comercializcion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:50 --> Invalid file: modulo/terminosyusos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/terminos...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/terminos...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('modulo/terminos...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:52 --> Invalid file: modulo/terminosyusos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/terminos...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/terminos...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('modulo/terminos...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:53 --> Invalid file: modulo/comercializcion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:09:55 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:25 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:28 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:29 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:31 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:31 --> Invalid file: modulo/comercializacion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:32 --> Invalid file: modulo/terminosyusos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/terminos...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/terminos...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('modulo/terminos...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:39 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:43 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:14:48 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:17:43 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:17:45 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:17:51 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:17:58 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:18:00 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:16 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:21 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:29 --> Invalid file: modulo/consultas.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/consulta...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/consulta...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(40): view('modulo/consulta...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->consultas()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:30 --> Invalid file: modulo/comercializacion.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/comercia...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/comercia...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(49): view('modulo/comercia...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->comercializacion()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:32 --> Invalid file: modulo/terminosyusos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/terminos...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/terminos...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(59): view('modulo/terminos...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->terminos_y_usos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:34 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(22): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:21:37 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:22:11 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:22:13 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:24:52 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:26:32 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:26:40 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:26:53 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:31 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:28:33 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:31:26 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:31:44 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:34:12 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:36:45 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:40:46 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:41:18 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:46:28 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:46:29 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:47:01 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:47:02 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:42 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:50:44 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:51:23 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:51:52 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:51:53 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:52:05 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:53:17 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:55:43 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:55:44 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:55:44 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:55:56 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:57:45 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:57:46 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:57:47 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:57:49 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:57:49 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 14:58:39 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:00:48 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:01:49 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:05:19 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:05:20 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:05:22 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:05:23 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:05:30 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(24): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:08:22 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:10:11 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:10:59 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:19:29 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:19:32 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:19:40 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:19:44 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:27:42 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:27:43 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:27:45 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:27:45 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:30:17 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:30:18 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:30:20 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:31:21 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:31:23 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:31:25 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:33:15 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:35:05 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:36:11 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:36:14 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:36:21 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:37:31 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:37:36 --> Invalid file: modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/quienesS...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/quienesS...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('modulo/quienesS...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:38:32 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:39:12 --> syntax error, unexpected '*', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\jacqueline\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\jacqueline\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-08 15:39:43 --> Invalid file: ./modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./modulo/quiene...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('./modulo/quiene...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('./modulo/quiene...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:40:33 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\xampp\htdocs\jacqueline\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\jacqueline\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-08 15:41:01 --> Invalid file: ./modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./modulo/quiene...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('./modulo/quiene...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('./modulo/quiene...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:41:07 --> Invalid file: ./modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./modulo/quiene...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('./modulo/quiene...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('./modulo/quiene...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:41:17 --> Invalid file: ./modulo/quienesSomos.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('./modulo/quiene...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('./modulo/quiene...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(23): view('./modulo/quiene...')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->quienes_somos()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:44:18 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:44:29 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:46:10 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-08 15:46:11 --> Invalid file: modulo/inicio.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('modulo/inicio.p...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('modulo/inicio', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(13): view('modulo/inicio')
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost:8080/';
+    public $baseURL = 'http://localhost/jacqueline/';
 
     /**
      * --------------------------------------------------------------------------
@@ -36,7 +36,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $indexPage = 'index.php';
+    public $indexPage = '';
 
     /**
      * --------------------------------------------------------------------------
@@ -51,7 +51,7 @@ class App extends BaseConfig
      * 'QUERY_STRING'   Uses $_SERVER['QUERY_STRING']
      * 'PATH_INFO'      Uses $_SERVER['PATH_INFO']
      *
-     * WARNING: If you set this to 'PATH_INFO', URIs will always be URL-decoded!
+     * WARNING: If you set this to '', URIs will always be URL-decoded!
      *
      * @var string
      */
