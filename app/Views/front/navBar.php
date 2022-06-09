@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <div class="container-fluid">
         <div class="navbar-brand"></div>
-        <img src="public/assets/img/A.jpg" alt="ropa3" class="d-block rounded-circle" style="width: 10%">
+        <img src="public/assets/img/A.jpg" alt="logo" class="d-block rounded-circle" style="width: 10%">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>

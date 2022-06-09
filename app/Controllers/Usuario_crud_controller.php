@@ -21,7 +21,7 @@ class Usuario_crud_controller extends Controller{
 
 /*----------------EDITAR USUARIO-------------- */    
 
-public   function add()
+public   function add()//vista 
 	{
         $dato['titulo'] = 'Editar';
         echo view('front/head',$dato);
@@ -32,17 +32,15 @@ public   function add()
 	}
 public 	function add_validation()
 	{
-		helper(['form', 'url']);
+		helper(['form', 'url']);//primero tenemos que cargar la clase auxiliar requerida
         
         $error = $this->validate([
             'nombre'   => 'required|min_length[3]',
             'apellido' => 'required|min_length[3]|max_length[25]',
             'email'    => 'required|min_length[4]|max_length[100]|valid_email',
             'usuario'  => 'required|min_length[3]',
-            'password' => 'required|min_length[3]|max_length[10]',
-            'gender'=> 'required'
-            
-        ]);
+            'perfil'  => 'required|min_length[1]'
+        ]);//validar los datos del formulario
 
         
 
@@ -62,23 +60,25 @@ public 	function add_validation()
             
             $crudModel->save([
                 
-                'name'   => $this->request->getVar('nombre'),
-                'email'  => $this->request->getVar('apellido'),
+                'nombre'   => $this->request->getVar('nombre'),
+                'apellido'  => $this->request->getVar('apellido'),
                 'email'  => $this->request->getVar('email'),
-                'email'  => $this->request->getVar('usaurio'),
-                'gender'  => $this->request->getVar('gender'),
-            ]);          
+                'usuario'  => $this->request->getVar('usuario'),
+                'perfil_id'  => $this->request->getVar('perfil_id'),
+            ]);//si pasa las reglas de validacion,se carga con la funcion save los datos a la tabla mysql         
             
             $session = \Config\Services::session();
 
-            $session->setFlashdata('success', 'User Data Added');
+            $session->setFlashdata('success', 'User Data Added');//mostrar el mensaje de éxito
 
             return $this->response->redirect(site_url('/userActivo'));
         }
 
 	}
 
-	// show single user
+
+
+	// obtener datos de un solo usuario de Mysql 
     public  function fetch_single_data($id = null)
     {
         $crudModel = new Usuarios_model();
@@ -93,6 +93,7 @@ public 	function add_validation()
 
     }
 
+//recibio una solicitud de formulario de datos de actualización
     public  function edit_validation()
     {
     	helper(['form', 'url']);
@@ -102,9 +103,8 @@ public 	function add_validation()
             'apellido' => 'required|min_length[3]|max_length[25]',
             'email'    => 'required|min_length[4]|max_length[100]|valid_email',
             'usuario'  => 'required|min_length[3]',
-            'password' => 'required|min_length[3]|max_length[10]',
-            'gender'=> 'required'
-        ]);
+            'perfil_id'  => 'required|min_length[1]'
+        ]);//validado los datos del formulario 
 
         $crudModel = new Usuarios_model();
 
@@ -114,24 +114,25 @@ public 	function add_validation()
         {
         	$data['user_data'] = $crudModel->where('id', $id)->first();
         	$data['error'] = $this->validator;
-            $dato['titulo'] = 'Editar';
-            echo view('front/head',$dato);
-            echo view('front/navbar');
-            echo view('back/administrador/modificarUser',$data);
-            echo view('front/footer');
+
+        $dato['titulo'] = 'Editar';
+             echo view('front/head',$dato);
+             echo view('front/navbar');
+             echo view('back/administrador/modificarUser',$data);
+             echo view('front/footer');
         } 
         else 
         {
 	        $data = [
                 
-	            'name'   => $this->request->getVar('nombre'),
-                'email'  => $this->request->getVar('apellido'),
+	            'nombre'   => $this->request->getVar('nombre'),
+                'apellido'  => $this->request->getVar('apellido'),
                 'email'  => $this->request->getVar('email'),
-                'email'  => $this->request->getVar('usaurio'),
-                'gender'  => $this->request->getVar('gender'),
+                'usuario'  => $this->request->getVar('usuario'),
+                'perfil_id'  => $this->request->getVar('perfil_id')
 	        ];
 
-        	$crudModel->update($id, $data);
+        	$crudModel->update($id, $data); //ha actualizado los datos de la tabla mysql
 
         	$session = \Config\Services::session();
 

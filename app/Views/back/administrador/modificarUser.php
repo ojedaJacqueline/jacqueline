@@ -1,20 +1,18 @@
+
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!--  -->
 <div class="container">
-        
-        <?php 
-
-        $validation = \Config\Services::validation();
-
-
+        <?php $validation = \Config\Services::validation();
         ?>
-        <h2 class="text-center mt-4 mb-4">Edit Data - Codeigniter 4 Crud Application</h2>
-        
+        <h2>Editar Usuario</h2>
         <div class="card">
-            <div class="card-header">Edit Data</div>
+            <div class="card-header">Editar Usuario</div>
             <div class="card-body">
                 <form method="post" action="<?php echo base_url('Usuario_crud_controller/edit_validation'); ?>">
                     <div class="form-group">
                         <label>Nombre</label>
-                        <input type="text" name="name" class="form-control" value="<?php echo $user_data['nombre']; ?>">
+                        <input type="text" name="nombre" class="form-control" value="<?php echo $user_data['nombre']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -30,7 +28,7 @@
                     </div>
                      <div class="form-group">
                         <label>Apellido</label>
-                        <input type="text" name="name" class="form-control" value="<?php echo $user_data['apellido']; ?>">
+                        <input type="text" name="apellido" class="form-control" value="<?php echo $user_data['apellido']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -61,7 +59,7 @@
                     </div>
                     <div class="form-group">
                         <label>Usuario</label>
-                        <input type="text" name="name" class="form-control" value="<?php echo $user_data['usuario']; ?>">
+                        <input type="text" name="usuario" class="form-control" value="<?php echo $user_data['usuario']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -75,37 +73,35 @@
                         }
                         ?>
                     </div>
-
                     <div class="form-group">
-                        <label>Gender</label>
-                        <select name="gender" class="form-control">
-                            <option value="">Select Gender</option>
-                            <option value="Male" <?php if($user_data['gender'] == 'Male') echo 'selected'; ?>>Male</option>
-                            <option value="Female" <?php if($user_data['gender'] == 'Female') echo 'selected'; ?>>Female</option>
-                        </select>
+                        <label>Perfil</label>
+                        <input type="number" name="perfil_id" class="form-control" value="<?php echo $user_data['perfil_id']; ?>">
 
+                        <!-- Error -->
                         <?php 
-                        if($validation->getError('gender'))
+                        if($validation->getError('perfil_id'))
                         {
                             echo "
                             <div class='alert alert-danger mt-2'>
-                            ".$validation->getError('gender')."
+                            ".$validation->getError('perfil_id')."
                             </div>
                             ";
                         }
                         ?>
                     </div>
 
+
                     <div class="form-group">
                         <input type="hidden" name="id" value="<?php echo $user_data["id"]; ?>" />
-                        <button type="submit" class="btn btn-primary">Edit</button>
+                        <button type="submit" class="btn btn-success">Guardar</button>
                     </div>
                 </form>
             </div>
         </div>
 
     </div>
- 
+ <br>
+
 
 
 <!--  
@@ -137,7 +133,7 @@
         <input type="text" class="form-control" name="textNombre" autofocus>
       </div>
       <div class="d-grid">
-        <input type="hidden" name="id" value="<?php echo $user_data["id"]; ?>" />
+        <input type="hidden" name="id" value="" />
         <input type="hidden" name="oculto" value="1">
         <button type="submit" class="btn btn-primary">Edit</button>
       </div>
