@@ -45,7 +45,7 @@
                      <td>' . $user["precio"] . '</td>
                      <td>' . $user["precio_venta"] . '</td>
                      <td>' . $user["eliminado"] . '</td>
-                     <td><a href="' . base_url().'/Usuario_crud_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
+                     <td><a href="' . base_url().'/Producto_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
                      <td><a href="" class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
                 </tr>';
                 }
@@ -82,7 +82,7 @@
           </div>
           <div class="mb-3">
             <label class="form-label">Imagen del producto</label>
-            <input type="file" id="imageFile" accept="image/*" multiple>
+            <input type="file" id="userFile" accept="image/*" multiple>
           </div>
           <div class="d-grid">
             <input type="hidden" name="oculto" value="1">

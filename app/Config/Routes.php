@@ -58,20 +58,23 @@ $routes->get('/salir', 'Login_controller::salir');
 /*RUTAS ADMINISTRADOR */
 //RUTAS USUARIO
 $routes->get('inicio administrador', 'Home::inicioAdm');
-$routes->get('userInactivo', 'Home::UserInactivos');
+$routes->get('userInactivo', 'Home::UserInactivos');//falta
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
-
+/* editar usuario */
 $routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
-
-
-
 //RUTAS PRODUCTOS
-$routes->get('agregarp', 'Home::store');
+/* la vista de producto lista activos.. */
 $routes->get('produc', 'Producto_controller::productos');
-$routes->get('modificaProd', 'Home::productosModifica');
-$routes->get('prodInactivos', 'Home::productosInactivos');
+
+$routes->get('prodInactivos', 'Home::productosInactivos');//falta
+/* editar producto */
+$routes->get('add/(:num)', 'Producto_controller::add/$1');
+$routes->post('edit_validation', 'Producto_controller::edit_validation');
+/* alta producto */
+$routes->get('agregarp', 'Home::store');//falta
+
 
 //RUTAS CONSULTAS
 $routes->get('consulNolog', 'Home::consultasNoLog');

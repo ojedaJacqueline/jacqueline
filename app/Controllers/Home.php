@@ -101,6 +101,7 @@ echo view('front/navBar');
 echo view('back/administrador/inicioAdm');
 echo view('front/footer');
 }
+// cambiar a Usuario_crud_controller
  public  function consultasNoLog()
  {
   $data['titulo']=' consultasNoLog';
@@ -109,7 +110,7 @@ echo view('front/footer');
     echo view('back/administrador/consultasNoLog');
     echo view('front/footer');
  }
-
+// cambiar a Usuario_crud_controller
  public  function consultasLog()
  {
   $data['titulo']='consultasLog';
@@ -118,7 +119,7 @@ echo view('front/footer');
     echo view('back/administrador/consultasLog');
     echo view('front/footer');
  }
-  
+// cambiar a Usuario_crud_controller
  public  function UserInactivos()
  {
   $data['titulo']='UserInactivos';
@@ -127,18 +128,7 @@ echo view('front/footer');
     echo view('back/administrador/UserInactivos');
     echo view('front/footer');
  } 
-
-
- 
-
- public  function productosModifica()
- {
-  $data['titulo']='productoLista';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/modificarProd');
-    echo view('front/footer');
- } 
+//cambiar a Usuario_crud_controller
  public  function productosInactivos()
  {
   $data['titulo']='productoLista';
@@ -147,6 +137,7 @@ echo view('front/footer');
     echo view('back/administrador/productoInactivos');
     echo view('front/footer');
  }
+ // cambiar a Usuario_crud_controller
  public  function ventas()
  {
   $data['titulo']='ventas';
@@ -157,6 +148,7 @@ echo view('front/footer');
  } 
 
  /* CLIENTE */
+ //cambiar a Carrito_controller
  public  function carrito()
  {
   $data['titulo']=' login';
@@ -165,7 +157,7 @@ echo view('front/footer');
     echo view('back/cliente/miCarrito');
     echo view('front/footer');
  } 
-
+ //cambiar a Carrito_controller
  public  function micatalogo()
  {
   $data['titulo']=' login';
