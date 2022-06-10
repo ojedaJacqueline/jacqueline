@@ -27,10 +27,10 @@
           <!-- Grid column -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">Contacto</h6>
-            <p><img src="public/assets/img/tienda.svg" alt=""> Arg-Corrientes-Cap. Dardo Rocha N°1234</p>
-            <p><img src="public/assets/img/msj.svg" alt=""> ale@gmail.com</p>
-            <p><img src="public/assets/img/tel.svg" alt=""> 379452158</p>
-            <p><img src="public/assets/img/what.svg" alt=""> 379525235</p>
+            <p><img src="<?php echo base_url('public/assets/img/tienda.svg');?>" alt=""> Arg-Corrientes-Cap. Dardo Rocha N°1234</p>
+            <p><img src="<?php echo base_url('public/assets/img/msj.svg');?>" alt=""> ale@gmail.com</p>
+            <p><img src="<?php echo base_url('public/assets/img/tel.svg');?>" alt=""> 379452158</p>
+            <p><img src="<?php echo base_url('public/assets/img/what.svg');?>" alt=""> 379525235</p>
           </div>
           <!-- Grid column -->
           <hr class="w-100 clearfix d-md-none" />
@@ -40,13 +40,13 @@
           <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
           <h6 class="text-uppercase mb-4 font-weight-bold">Seguinos</h6>
 <!-- Facebook -->
-          <a href="https://www.facebook.com/"><img src="public/assets/img/facebook.svg"></a>
+          <a href="https://www.facebook.com/"><img src="<?php echo base_url('public/assets/img/facebook.svg');?>"></a>
 <!-- Instagram -->
-          <a href="https://www.instagram.com/"><img src="public/assets/img/instagram.svg"></a> 
+          <a href="https://www.instagram.com/"><img src="<?php echo base_url('public/assets/img/instagram.svg');?>" ></a> 
 <!-- Twitter -->
-          <a href="https://www.instagram.com/"><img src="public/assets/img/twitter.svg"></a>
+          <a href="https://www.instagram.com/"><img src="<?php echo base_url('public/assets/img/instagram.svg');?>"></a>
           <div class="row-md-4 row-lg-3 row-xl-3 mx-auto mt-3"><h6 class="text-uppercase mb-4 font-weight-bold" >Medios de pagos</h6>
-          <p><img src="public/assets/img/tarjetas.png" width="210" height="40"></p>
+          <p><img src="<?php echo base_url('public/assets/img/tarjetas.png');?>" width="210" height="40"></p>
         </div>
         </div>
             <!-- Grid column -->

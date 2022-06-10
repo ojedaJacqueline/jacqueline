@@ -199,6 +199,42 @@ public function store(){
  } 
 /*--------------------------- //FIN// ALTA PRODUCTO ---------*/
 
+
+
+public function eliminacionLogica($id = null)
+    {
+
+        $crudModel = new Producto_Model();
+
+    
+        
+        $data = $crudModel->where('id', $id)->first();
+        if ($data['eliminado'] == 'NO') {
+
+            $data1 = [
+                'baja' => 'SI'
+            ];
+
+            $crudModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
+            $session = \Config\Services::session();
+
+            $session->setFlashdata('success', 'User Data Updated');
+
+            return $this->response->redirect(site_url('/produc'));
+        } else {
+            $data1 = [
+                'baja' => 'NO'
+            ];
+
+            $crudModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
+            $session = \Config\Services::session();
+
+            $session->setFlashdata('success', 'User Data Updated');
+
+            return $this->response->redirect(site_url('/produc'));
+        }
+    }
+    /*---- //FIN//ELIMINACION LOGICA---- */
 }
 
 

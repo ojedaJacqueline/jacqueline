@@ -12,6 +12,8 @@
           USUARIOS INACTIVOS
         </div>
         <div class="table-responsive">
+          <?php echo ($user_data);die; ?>
+        <?php if ($user_data) : ?>
           <table class="table d-flex ">
             
             <tr class="table-info">
@@ -26,41 +28,32 @@
                 <th>Activar</th>
               </tr>
           
+             
+               <?php foreach ($user_data as $user) :  ?>
+                
+                 <tr>
+                   
+                    <td><?php ' . $user["id"]  . ' ?></td>   
+                         <td>' . $user["nombre"] . '</td>
+                         <td>' . $user["apellido"] . '</td>
+                          <td>' . $user["email"] . '</td>
+                          <td>' . $user["usuario"] . '</td>
+                          <td>' . $user["perfil_id"] . '</td>
+                          <td>' . $user["baja"] . '</td>
+                    
+                     <td><a href="' . base_url().'/Usuario_crud_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
+                     <td><a  href="' . base_url().'/Usuario_crud_controller/eliminacionLogica/'. $user["id"] . '"<img src="public/assets/img/user-mas.svg" alt=""></td>
+              
+                     </tr>';
+
+                  <?php endforeach ; ?>
+                  
             
-              <tr>
-                <td>1</td>
-                <td>Leonardo</td>
-                <td>Ortiz</td>
-                <td>leo@gmail.com</td>
-                <td>leo</td>
-                <td>1</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/user-mas.svg" alt=""></td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Eduardo</td>
-                <td>Benitez</td>
-                <td>ed154@gmail.com</td>
-                <td>Edu</td>
-                <td>2</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/user-mas.svg" alt=""></td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Macarena</td>
-                <td>mas</td>
-                <td>macaM@gmail.com</td>
-                <td>MacaR</td>
-                <td>2</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/user-mas.svg" alt=""></td>
-              </tr>
           </table>
+          <?php else : ?> 
+                  <h1>NO HAY DATOS PARA MOSTRAR</h1>
+
+         <?php endif; ?>
         </div>
       </div>
     </div>

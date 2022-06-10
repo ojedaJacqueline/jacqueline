@@ -119,15 +119,7 @@ echo view('front/footer');
     echo view('back/administrador/consultasLog');
     echo view('front/footer');
  }
-// cambiar a Usuario_crud_controller
- public  function UserInactivos()
- {
-  $data['titulo']='UserInactivos';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/UserInactivos');
-    echo view('front/footer');
- } 
+
 //cambiar a Usuario_crud_controller
  public  function productosInactivos()
  {

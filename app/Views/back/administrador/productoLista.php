@@ -46,7 +46,7 @@
                      <td>' . $user["precio_venta"] . '</td>
                      <td>' . $user["eliminado"] . '</td>
                      <td><a href="' . base_url().'/Producto_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
-                     <td><a href="" class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
+                     <td><a  href="' . base_url().'/Producto_controller/eliminacionLogica/'. $user["id"] . '"  class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
                 </tr>';
                 }
               }

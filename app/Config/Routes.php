@@ -58,7 +58,7 @@ $routes->get('/salir', 'Login_controller::salir');
 /*RUTAS ADMINISTRADOR */
 //RUTAS USUARIO
 $routes->get('inicio administrador', 'Home::inicioAdm');
-$routes->get('userInactivo', 'Home::UserInactivos');//falta
+$routes->get('userInactivo', 'Usuario_crud_controller::UserInactivos');//falta
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
 /* editar usuario */
 $routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');

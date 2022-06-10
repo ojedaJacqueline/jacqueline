@@ -1,10 +1,11 @@
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
-    <!--  -->
+
 <div class="container">
-    //bibloteca de validacion
+   
         <?php $validation = \Config\Services::validation();
         ?>
-        <h2>Editar Producto</h2>
+        <br>
+        <h1>Editar Producto</h1>
+        <br>
         <div class="card">
             <div class="card-header">Editar Producto</div>
             <div class="card-body">
@@ -120,7 +121,7 @@
                         }
                         ?>
                     </div>
-
+                    <br>
                     <div class="form-group">
                         <input type="hidden" name="id" value="<?php echo $user_data["id"]; ?>" />
                         <button type="submit" class="btn btn-success">Guardar</button>
