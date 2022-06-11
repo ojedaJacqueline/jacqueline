@@ -24,12 +24,39 @@ public  function quienes_somos()
    echo view('front/footer');
 
 }
-public  function catalogo()
+
+public  function catalogoBD()
 {
  $data['titulo']='catalogo';
    echo view('front/head',$data);
    echo view('front/navBar');
-   echo view('front/catalogo');
+   echo view('back/cliente/micatalogo');
+  echo view('front/footer');
+
+}
+public  function catalogoc()
+{
+ $data['titulo']='catalogo';
+   echo view('front/head',$data);
+   echo view('front/navBar');
+   echo view('front/catalogoc');
+  echo view('front/footer');
+}
+public  function catalogop()
+{
+ $data['titulo']='catalogo';
+   echo view('front/head',$data);
+   echo view('front/navBar');
+   echo view('front/catalogop');
+  echo view('front/footer');
+
+}
+public  function catalogos()
+{
+ $data['titulo']='catalogo';
+   echo view('front/head',$data);
+   echo view('front/navBar');
+   echo view('front/catalogos');
   echo view('front/footer');
 
 }
@@ -120,15 +147,8 @@ echo view('front/footer');
     echo view('front/footer');
  }
 
-//cambiar a Usuario_crud_controller
- public  function productosInactivos()
- {
-  $data['titulo']='productoLista';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/productoInactivos');
-    echo view('front/footer');
- }
+
+
  // cambiar a Usuario_crud_controller
  public  function ventas()
  {

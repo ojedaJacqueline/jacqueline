@@ -8,6 +8,7 @@ class Usuario_crud_controller extends Controller
 {
 
     /*-------------Muestra la lista de usuarios de la BD------------*/
+    /*-----VISTA USUARIO ACTIVOS -----*/
     public  function miAdmVerUsuariosActivos()
     {
         $crudModel = new Usuarios_model();
@@ -21,6 +22,7 @@ class Usuario_crud_controller extends Controller
         echo view('front/footer');
     }
     /* -------------------//FIN// Muestra la lista de usuarios de la BD------------------ */
+    /*----- VISTA USUARIO INACTIVOS----*/
     public  function UserInactivos()
     {
         $crudModel = new Usuarios_model();
@@ -164,7 +166,7 @@ class Usuario_crud_controller extends Controller
         }
     }
     /*----------------//FIN//EDITAR USUARIO-------------- */
-/*-------------------AGREGAR USUARIO -------------------*/
+/*-------------------CREAR USUARIO -------------------*/
 
 	public function __construct(){
            helper(['form','url']);
@@ -224,23 +226,8 @@ class Usuario_crud_controller extends Controller
               return $this->response->redirect(site_url('/'));
         }
     }
-
-
-
-
-
-/*-------------------//FIN//AGREGAR USUARIO -------------------*/
-
-
-
-
-
-
-
-
-
-
-    /*---- ELIMINACION LOGICA---- */
+/*-------------------//FIN//CREAR USUARIO -------------------*/
+/*---- ELIMINACION LOGICA---- */
     public function eliminacionLogica($id = null)
     {
         $crudModel = new Usuarios_model();

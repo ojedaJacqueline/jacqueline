@@ -15,5 +15,5 @@
   <link href="<?php echo base_url('public/assets/css/bootstrap.min.css'); ?>"  rel="stylesheet">
   <link href="<?php echo base_url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); ?>"  rel="stylesheet">
   <!-- icons -->
-  <link href="<?php echo base_url('https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css'); ?>" rel='stylesheet'>
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
 </head>

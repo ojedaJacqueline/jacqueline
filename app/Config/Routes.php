@@ -44,6 +44,9 @@ $routes->get('comercial', 'Home::comercializacion');
 $routes->get('contacto', 'Home::contacto');
 $routes->get('terminos', 'Home::terminos_y_usos');
 $routes->get('construccion', 'Home::construccion');
+$routes->get('catac', 'Home::catalogoc');
+$routes->get('catap', 'Home::catalogop');
+$routes->get('catas', 'Home::catalogos');
 //REGISTRO 
 $routes->get('registro', 'Usuario_controller::create');
 $routes->post('enviar-form', 'Usuario_controller::formValidation');
@@ -72,13 +75,16 @@ $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 //RUTAS PRODUCTOS
 /* la vista de producto lista activos.. */
-$routes->get('editar-producto/(:num)','Producto_controller::fetch_single_data/$1');
+
+
 $routes->get('eliminar-noeliminar-producto/(:num)', 'Producto_controller::eliminacionLogica/$1');
 $routes->get('produc', 'Producto_controller::productos');
-$routes->get('prodInactivos', 'Home::productosInactivos');//falta
+$routes->get('prodInactivos', 'Producto_controller::productosInactivos');
 /* editar producto */
-$routes->get('add/(:num)', 'Producto_controller::add/$1');
-$routes->post('edit_validation', 'Producto_controller::edit_validation');
+$routes->get('editar-producto/(:num)','Producto_controller::fetch_single_data/$1');
+$routes->get('vistaModifica/(:num)', 'Producto_controller::vistaModifica/$1');
+$routes->post('editvalidation', 'Producto_controller::edit_validation');
+
 /* alta producto */
 $routes->get('agregarp', 'Home::store');//falta
 
@@ -89,6 +95,8 @@ $routes->get('consulLog', 'Home::consultasLog');
 
 /* --------------------------------------------- */
 /*RUTAS CLIENTE */
+
+$routes->get('cataBD', 'Home::catalogoBD');
 $routes->get('carrito', 'Carrito_controller::carrito');
 $routes->get('todos_los_productos', 'Carrito_controller::catalogo');
 $routes->get('actualizarCarrito', 'Carrito_controller::actualizar_carrito');

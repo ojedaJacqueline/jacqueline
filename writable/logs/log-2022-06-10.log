@@ -248,3 +248,46 @@ CRITICAL - 2022-06-10 21:36:05 --> Undefined variable: prod_data
 #7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-06-10 23:13:38 --> requered is not a valid rule.
+#0 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+#1 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '1', Array, Array)
+#2 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(107): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-10 23:13:49 --> Undefined variable: prod_data
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\productoInactivos.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(129): view('back/administra...')
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->productosInactivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 23:17:22 --> Undefined variable: prod_data
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\productoInactivos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Home.php(129): view('back/administra...')
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Home->productosInactivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-10 23:25:43 --> Undefined variable: prod_data
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\productoInactivos.php(34): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(29): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->productosInactivos()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

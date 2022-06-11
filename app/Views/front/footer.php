@@ -44,7 +44,7 @@
 <!-- Instagram -->
           <a href="https://www.instagram.com/"><img src="<?php echo base_url('public/assets/img/instagram.svg');?>" ></a> 
 <!-- Twitter -->
-          <a href="https://www.instagram.com/"><img src="<?php echo base_url('public/assets/img/instagram.svg');?>"></a>
+          <a href="https://www.instagram.com/"><img src="<?php echo base_url('public/assets/img/twitter.svg');?>"></a>
           <div class="row-md-4 row-lg-3 row-xl-3 mx-auto mt-3"><h6 class="text-uppercase mb-4 font-weight-bold" >Medios de pagos</h6>
           <p><img src="<?php echo base_url('public/assets/img/tarjetas.png');?>" width="210" height="40"></p>
         </div>

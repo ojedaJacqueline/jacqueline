@@ -5,6 +5,7 @@ use CodeIgniter\Controller;
 
 class Producto_controller extends Controller {
 /*-------------Muestra la lista de usuarios de la BD------------*/  
+/*-----VISTA PRODUCTOS ACTIVOS ----*/
     public  function productos()
 	{
 		$crudModel = new Producto_Model();
@@ -18,11 +19,24 @@ class Producto_controller extends Controller {
            echo view('back/administrador/productoLista',$data);
            echo view('front/footer');
         } 
-/* -------------------//FIN// Muestra la lista de usuarios de la BD------------------ */        
+/* -------------------//FIN// Muestra la lista de usuarios de la BD------------------ */
+/*-----VISTA PRODUCTOS INACTIVOS ----*/
+public  function productosInactivos()
+{
+    $crudModel = new Producto_Model();
+
+		$data['prod_data'] = $crudModel->orderBy('id', 'DESC')->paginate(10);
+ $data['titulo']='productoLista';
+   echo view('front/head',$data);
+   echo view('front/navBar');
+   echo view('back/administrador/productoInactivos',$data);
+   echo view('front/footer');
+}
+
 /*----------------EDITAR PRODUCTO-------------- */    	
    
 
-public   function add()//vista 
+public   function vistaModifica()//vista 
 	{
         $dato['titulo'] = 'Editar';
         echo view('front/head',$dato);
@@ -200,7 +214,7 @@ public function store(){
 /*--------------------------- //FIN// ALTA PRODUCTO ---------*/
 
 
-/*---- //FIN//ELIMINACION LOGICA---- */
+/*---- ELIMINACION LOGICA---- */
 public function eliminacionLogica($id = null)
     {
         $prodModel = new Producto_Model();

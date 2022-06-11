@@ -45,11 +45,11 @@
                 <a class="nav-link" href="<?php echo base_url('quienes'); ?>">¿Quiénes Somos?</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="<?php echo base_url('construccion'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
+                <a class="nav-link dropdown-toggle" href="<?php echo base_url('#'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">SACOS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">CARTERAS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">PANTALONES</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">SACOS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">CARTERAS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">PANTALONES</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -85,11 +85,11 @@
                   <a class="nav-link" href="<?php echo base_url('quienes'); ?>">¿Quiénes Somos?</a>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="<?php echo base_url('construccion'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
+                  <a class="nav-link dropdown-toggle" href="<?php echo base_url('#'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">SACOS</a></li>
-                    <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">CARTERAS</a></li>
-                    <li><a class="dropdown-item" href="<?php echo base_url('construccion'); ?>">PANTALONES</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url('catas'); ?>">SACOS</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url('catac'); ?>">CARTERAS</a></li>
+                    <li><a class="dropdown-item" href="<?php echo base_url('catap'); ?>">PANTALONES</a></li>
                   </ul>
                 </li>
                 <li class="nav-item">

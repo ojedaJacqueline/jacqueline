@@ -1,20 +1,24 @@
 <br>
-<h1>Lista de Productos INACTIVOS</h1
->
+<h1>Lista de Productos INACTIVOS</h1>
+
 <div class="container mt-5">
   <div class="row justify-content-center">
+<!------------ div que contiene al boton y a la lista de prod-------------->    
     <div class="col-md-7">
+<!------------ BOTON VISTA PRODUCTOS INACTIVOS-------------->  
       <div class="d-grid">
       <a class="btn" style="box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);" href="<?php echo base_url('produc'); ?>">Ver Productos Activos</a>
       </div>
       <br>
+<!------------//FIN// BOTON VISTA PRODUCTOS INACTIVOS-------------->
+<!------------ LISTA DE PRODUCTOS-------------->
       <div class="card">
-        <div class="card-header" style="color:brown ;">
-          PRODUCTOS INACTIVOS
+        <div class="card-header"style="color:darkgreen;">
+          PRODUCTOS ACTIVOS
         </div>
         <div class="table-responsive">
           <table class="table d-flex ">
-              <tr class="table-success">
+            <tr class="table-success">
               <th>Id</th>
               <th>Categoria</th>
               <th>Imagen</th>
@@ -24,10 +28,9 @@
               <th>Precio</th>
               <th>Precio Venta</th>
               <th>Baja</th>
-              <th>Editar</th>
               <th>Activar</th>
             </tr>
-              <?php foreach ($prod_data as $key => $user):?>
+            <?php foreach ($prod_data as $key => $user) :?>
                 <?php if($user['eliminado'] == 'SI'): ?>
                  <tr>
                      <td> <?= $user["id"] ?></td>
@@ -46,7 +49,10 @@
           </table>
         </div>
       </div>
+<!------------//FIN// LISTA DE PRODUCTOS-------------->       
     </div>
+<!------------//FIN//div que contiene al boton y a la lista de prod-------------->    
+
   </div>
 </div>
 <br>

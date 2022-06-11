@@ -78,10 +78,6 @@
           <i class='bx bx-purchase-tag-alt add-cart'data-bs-toggle="modal" data-bs-target="#cuatroModal"></i>
         </div>
         </div>
-        <div>
-          <br>
-          <h2>Encontra todo lo que estás buscando en la sección de catálogo o haciendo click aquí <button type="button" class="btn btn-link"><h2>Cátalogo</h2></button></h2>
-        </div>
   </section>
 </div>
 <br>
