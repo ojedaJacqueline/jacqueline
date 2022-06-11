@@ -1,19 +1,18 @@
+
 <br>
 <br>
-<div class="container">
-  <div class="row no-gutters" style="background-color:white ; border-radius:30px; box-shadow: 12px 12px 22px grey">
-    <!-- FOTO -->
-    <div class=" col-lg-5 mt-4">
-      <img src="public\assets\img\musica.jpg" class="img-fluid" alt="" style="border-radius:30px;">
-    </div>
-    <!-- FOTO -->
+
+        <h1>AGREGAR USUARIO</h1>
+<div class="row justify-content-center">
+  
     <!-- TABLA REGISTRO -->
-    <div class=" col-lg-7 px-5 pt-5" style="width: 50%;">
-      <div class="text-center col-10">
-        <h1>REGISTRARSE</h1>
-      </div>
+    <div style="width: 50%;">
+    <div class="card">
+    <div class="card-header">
+            Crear Usuario:
+          </div>
       <?php $validation = \Config\Services::validation(); ?>
-      <form method="post" action="<?php echo base_url('enviar-form') ?>">
+      <form method="post" action="<?php echo base_url('enviar') ?>">
         <div class="card-body" media="(max-width:768px)">
           <div class="mb-2">
             <label for="exampleFormControlInput1" class="form-label" style="color:darkgreen ;">Nombre</label>
@@ -37,7 +36,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label" style="color:darkgreen ;">Correo electrónico</label>
-            <input name="email" type="femail" class="form-control" placeholder="escribir correo electrónico">
+            <input name="email" type="femail" class="form-control" placeholder="ejemplo@gmail.com">
             <!-- Error -->
             <?php if ($validation->getError('email')) { ?>
               <div class='alert alert-danger mt-2'>
@@ -65,16 +64,15 @@
               </div>
             <?php } ?>
           </div>
-          <input type="submit" value="guardar" class="btn btn-success">
+          <input type="submit" value="crear usuario" class="btn btn-success">
           <input type="reset" value="cancelar" class="btn btn-danger">
         </div>
+    
       </form>
-      <div class="d-grid">
-        <a class="btn btn-link" href="<?php echo base_url('login'); ?>">¿ ESTAS REGISTRADO?HACE CLIC AQUÍ</a>
       </div>
        <!-- TABLA REGISTRO -->
-    </div>
-  </div>
+       </div>
+</div>
 </div>
 <br>
 <br>

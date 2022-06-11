@@ -1,5 +1,5 @@
 <br>
-<h1>Usuarios</h1>
+<h1>Usuarios INACTIVOS</h1>
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-7">
@@ -12,8 +12,6 @@
           USUARIOS INACTIVOS
         </div>
         <div class="table-responsive">
-          <?php echo ($user_data);die; ?>
-        <?php if ($user_data) : ?>
           <table class="table d-flex ">
             
             <tr class="table-info">
@@ -24,36 +22,25 @@
                 <th>Usuario</th>
                 <th>Perfil</th>
                 <th>Baja</th>
-                <th>Editar</th>
                 <th>Activar</th>
               </tr>
-          
-             
-               <?php foreach ($user_data as $user) :  ?>
-                
+              <?php foreach ($user_data as $key => $user) :?>
+               
+                <?php if($user['baja'] == 'SI'): ?>
+
                  <tr>
-                   
-                    <td><?php ' . $user["id"]  . ' ?></td>   
-                         <td>' . $user["nombre"] . '</td>
-                         <td>' . $user["apellido"] . '</td>
-                          <td>' . $user["email"] . '</td>
-                          <td>' . $user["usuario"] . '</td>
-                          <td>' . $user["perfil_id"] . '</td>
-                          <td>' . $user["baja"] . '</td>
-                    
-                     <td><a href="' . base_url().'/Usuario_crud_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
-                     <td><a  href="' . base_url().'/Usuario_crud_controller/eliminacionLogica/'. $user["id"] . '"<img src="public/assets/img/user-mas.svg" alt=""></td>
-              
-                     </tr>';
-
-                  <?php endforeach ; ?>
-                  
-            
+                     <td> <?= $user["id"] ?></td>
+                     <td><?= $user["nombre"] ?></td>
+                     <td><?= $user["apellido"] ?></td>
+                     <td><?= $user["email"] ?></td>
+                     <td><?= $user["usuario"] ?></td>
+                     <td><?= $user["perfil_id"] ?></td>
+                     <td><?= $user["baja"] ?></td>
+                     <td><a  href="<?php echo base_url('activado-usuario/'. $user["id"] )?>" class="btn btn-sm"><img src="public/assets/img/user-mas.svg" alt=""></a></td>
+                </tr> 
+                <?php endif; ?>
+                <?php endforeach; ?>
           </table>
-          <?php else : ?> 
-                  <h1>NO HAY DATOS PARA MOSTRAR</h1>
-
-         <?php endif; ?>
         </div>
       </div>
     </div>

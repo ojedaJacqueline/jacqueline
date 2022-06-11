@@ -18,7 +18,7 @@
                     <form action="<?php echo base_url('enviarlogin'); ?>" method="post">
                         <div class="mb-3">
                             <label for="InputForEmail" class="form-label" style="color:darkgreen ;">Correo electrónico</label>
-                            <input type="email" name="email" class="form-control" id="InputForEmail" placeholder="ejemplo@gmail.com">
+                            <input type="email" name="email" class="form-control" id="InputForEmail" placeholder="escribir correo electrónico"autofocus>
                         </div>
                         <div class="mb-3">
                             <label for="InputForPassword" class="form-label" style="color:darkgreen ;">Contraseña</label>

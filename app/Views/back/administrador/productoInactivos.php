@@ -1,5 +1,6 @@
 <br>
-<h1>Lista de Productos</h1>
+<h1>Lista de Productos INACTIVOS</h1
+>
 <div class="container mt-5">
   <div class="row justify-content-center">
     <div class="col-md-7">
@@ -26,45 +27,22 @@
               <th>Editar</th>
               <th>Activar</th>
             </tr>
-              <tr>
-                <td>1</td>
-                <td>3</td>
-                <td>public/...</td>
-                <td>pantalon</td>
-                <td>3</td>
-                <td>2</td>
-                <td>1520</td>
-                <td>2000</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/trash1.svg" alt=""></td>
-              </tr>
-              <tr>
-              <td>1</td>
-                <td>3</td>
-                <td>public/...</td>
-                <td>pantalon</td>
-                <td>3</td>
-                <td>2</td>
-                <td>1520</td>
-                <td>2000</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/trash1.svg" alt=""></td>
-              </tr>
-              <tr>
-              <td>1</td>
-                <td>3</td>
-                <td>public/...</td>
-                <td>pantalon</td>
-                <td>3</td>
-                <td>2</td>
-                <td>1520</td>
-                <td>2000</td>
-                <td>SI</td>
-                <td><img src="public/assets/img/edit.svg" alt=""></td>
-                <td><img src="public/assets/img/trash1.svg" alt=""></td>
-              </tr>
+              <?php foreach ($prod_data as $key => $user):?>
+                <?php if($user['eliminado'] == 'SI'): ?>
+                 <tr>
+                     <td> <?= $user["id"] ?></td>
+                     <td><?= $user["categoria_id"] ?></td>
+                     <td><?= $user["imagen"] ?></td>
+                     <td><?= $user["nombreProd"] ?></td>
+                     <td><?= $user["stock"] ?></td>
+                     <td><?= $user["stock_min"] ?></td>
+                     <td><?= $user["precio"] ?></td>
+                     <td><?= $user["precio_venta"] ?></td>
+                     <td><?= $user["eliminado"] ?></td>
+                     <td><a  href="<?php echo base_url('eliminar-noeliminar-producto/'. $user["id"] )?>" class="btn btn-sm"><img src="public/assets/img/trash1.svg" alt=""></a></td>
+                </tr> 
+                <?php endif; ?>
+                <?php endforeach; ?>
           </table>
         </div>
       </div>

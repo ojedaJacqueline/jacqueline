@@ -61,9 +61,9 @@ public 	function add_validation()
         } 
         else 
         {
-            $crud = new Producto_Model();
+            $prodModel = new Producto_Model();
             
-            $crud->save([
+            $prodModel->save([
                 'categoria_id'   => $this->request->getVar('categoria_id'),
                 'nombreProd'  => $this->request->getVar('nombreProd'),
                 'imagen'=> $this->request->getVar('imagen'),
@@ -87,9 +87,8 @@ public 	function add_validation()
 	// obtener datos de un solo producto de Mysql 
     public  function fetch_single_data($id = null)
     {
-        $crud = new Producto_Model();
-
-        $data['user_data'] = $crud->where('id', $id)->first();
+        $prodModel = new Producto_Model();
+        $data['prod_data'] = $prodModel->where('id', $id)->first();
         
         $dato['titulo'] = 'Editar';
             echo view('front/head',$dato);
@@ -114,13 +113,13 @@ public 	function add_validation()
             'precio_venta'=>'required',
         ]);//validado los datos del formulario 
 
-        $crud = new Producto_Model();
+        $prodModel = new Producto_Model();
 
         $id = $this->request->getVar('id');
 
         if(!$error)
         {
-        	$data['user_data'] = $crud->where('id', $id)->first();
+        	$data['prod_data'] = $prodModel->where('id', $id)->first();
         	$data['error'] = $this->validator;
 
         $dato['titulo'] = 'Editar';
@@ -141,7 +140,7 @@ public 	function add_validation()
                 'precio_venta'  => $this->request->getVar('precio_venta'),
 	        ];
 
-        	$crud->update($id, $data); //ha actualizado los datos de la tabla mysql
+        	$prodModel->update($id, $data); //ha actualizado los datos de la tabla mysql
 
         	$session = \Config\Services::session();
 
@@ -157,6 +156,7 @@ public function store(){
     $input = $this->validate([
          'nombreProd'=>'requered|min_length[2]',
          'categoria'=>'is_not_unique[categoria.id]',
+         'imagen'=>'uploaded[imagen]|[imagen,4096]|is_image[imagen]',
          'precio'=>'required',
          'precio_venta'=>'required',
          'stock'=>'required',
@@ -200,22 +200,18 @@ public function store(){
 /*--------------------------- //FIN// ALTA PRODUCTO ---------*/
 
 
-
+/*---- //FIN//ELIMINACION LOGICA---- */
 public function eliminacionLogica($id = null)
     {
-
-        $crudModel = new Producto_Model();
-
-    
-        
-        $data = $crudModel->where('id', $id)->first();
+        $prodModel = new Producto_Model();
+        $data = $prodModel->where('id', $id)->first();
         if ($data['eliminado'] == 'NO') {
 
             $data1 = [
-                'baja' => 'SI'
+                'eliminado' => 'SI'
             ];
 
-            $crudModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
+            $prodModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
             $session = \Config\Services::session();
 
             $session->setFlashdata('success', 'User Data Updated');
@@ -223,10 +219,10 @@ public function eliminacionLogica($id = null)
             return $this->response->redirect(site_url('/produc'));
         } else {
             $data1 = [
-                'baja' => 'NO'
+                'eliminado' => 'NO'
             ];
 
-            $crudModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
+            $prodModel->update($id, $data1); //ha actualizado los datos de la tabla mysql
             $session = \Config\Services::session();
 
             $session->setFlashdata('success', 'User Data Updated');

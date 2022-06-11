@@ -44,30 +44,37 @@ $routes->get('comercial', 'Home::comercializacion');
 $routes->get('contacto', 'Home::contacto');
 $routes->get('terminos', 'Home::terminos_y_usos');
 $routes->get('construccion', 'Home::construccion');
-
+//REGISTRO 
 $routes->get('registro', 'Usuario_controller::create');
 $routes->post('enviar-form', 'Usuario_controller::formValidation');
-
+//LOGIN
 $routes->get('login', 'Home::login');
 //$routes->get('login', 'Login_controller');
-
 $routes->post('enviarlogin', 'Login_controller::auth');
+
 $routes->get('panel', 'Panel_controller::index');
 $routes->get('/salir', 'Login_controller::salir');
 /* ----------------------------------------------------------- */
 /*RUTAS ADMINISTRADOR */
 //RUTAS USUARIO
 $routes->get('inicio administrador', 'Home::inicioAdm');
-$routes->get('userInactivo', 'Usuario_crud_controller::UserInactivos');//falta
+$routes->get('userInactivo', 'Usuario_crud_controller::UserInactivos');
 $routes->get('userActivo', 'Usuario_crud_controller::miAdmVerUsuariosActivos');
+/* eliminacion logica */
+$routes->get('activado-usuario/(:num)', 'Usuario_crud_controller::eliminacionLogica/$1');
+/* crear usuario */
+$routes->get('crear-usuario', 'Usuario_crud_controller::create');
+$routes->post('enviar', 'Usuario_crud_controller::formValidation');
 /* editar usuario */
+$routes->get('editar-usuario/(:num)', 'Usuario_crud_controller::fetch_single_data/$1');
 $routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
 
 //RUTAS PRODUCTOS
 /* la vista de producto lista activos.. */
+$routes->get('editar-producto/(:num)','Producto_controller::fetch_single_data/$1');
+$routes->get('eliminar-noeliminar-producto/(:num)', 'Producto_controller::eliminacionLogica/$1');
 $routes->get('produc', 'Producto_controller::productos');
-
 $routes->get('prodInactivos', 'Home::productosInactivos');//falta
 /* editar producto */
 $routes->get('add/(:num)', 'Producto_controller::add/$1');

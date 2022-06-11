@@ -1,5 +1,5 @@
 <br>
-<h1>Lista de Productos</h1>
+<h1>Lista de Productos ACTIVOS</h1>
 
 <div class="container mt-5">
   <div class="row justify-content-center">
@@ -31,26 +31,23 @@
               <th>Editar</th>
               <th>Inactivar</th>
             </tr>
-            <?php
-              if ($prod_data) {
-                foreach ($prod_data as $user) {
-                  echo '
+            <?php foreach ($prod_data as $key => $user) :?>
+                <?php if($user['eliminado'] == 'NO'): ?>
                  <tr>
-                     <td>' . $user["id"] . '</td>
-                     <td>' . $user["categoria_id"] . '</td>
-                     <td>' . $user["imagen"] . '</td>
-                     <td>' . $user["nombreProd"] . '</td>
-                     <td>' . $user["stock"] . '</td>
-                     <td>' . $user["stock_min"] . '</td>
-                     <td>' . $user["precio"] . '</td>
-                     <td>' . $user["precio_venta"] . '</td>
-                     <td>' . $user["eliminado"] . '</td>
-                     <td><a href="' . base_url().'/Producto_controller/fetch_single_data/'. $user["id"] . '" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
-                     <td><a  href="' . base_url().'/Producto_controller/eliminacionLogica/'. $user["id"] . '"  class="btn btn-sm"><img src="public/assets/img/bx-user-minus.svg" alt=""></a></td>
-                </tr>';
-                }
-              }
-              ?>
+                     <td> <?= $user["id"] ?></td>
+                     <td><?= $user["categoria_id"] ?></td>
+                     <td><?= $user["imagen"] ?></td>
+                     <td><?= $user["nombreProd"] ?></td>
+                     <td><?= $user["stock"] ?></td>
+                     <td><?= $user["stock_min"] ?></td>
+                     <td><?= $user["precio"] ?></td>
+                     <td><?= $user["precio_venta"] ?></td>
+                     <td><?= $user["eliminado"] ?></td>
+                     <td><a href="<?php echo base_url('editar-producto/'. $user["id"] )?>" class="btn btn-sm"><img src="public/assets/img/edit.svg" alt=""></a></td>
+                     <td><a  href="<?php echo base_url('eliminar-noeliminar-producto/'. $user["id"] )?>" class="btn btn-sm"><img src="public/assets/img/trash.svg" alt=""></a></td>
+                </tr> 
+                <?php endif; ?>
+                <?php endforeach; ?>
           </table>
         </div>
       </div>

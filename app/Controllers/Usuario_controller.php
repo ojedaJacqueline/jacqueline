@@ -23,6 +23,23 @@ class Usuario_controller extends Controller{
             'email'    => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
             'usuario'  => 'required|min_length[3]',
             'password' => 'required|min_length[3]|max_length[10]'
+        ], [   // Errors
+            'nombre' => [
+                'required' => 'error al ingresar nombre ',
+            ],
+            'apellido' => [
+                'required' => 'error al ingresar apellido ',
+            ],
+            'email' => [
+                'required' => 'error al ingresar email ',
+            ],
+            'usuario' => [
+                'required' => 'error al ingresar usuario ',
+            ],
+            'password' => [
+                'required' => 'error al ingresar contraseña ',
+            ],
+
         ]);
         $formModel = new Usuarios_model();
         if (!$input) {
@@ -32,6 +49,7 @@ class Usuario_controller extends Controller{
                 echo view('back/registrarse', [
                 'validation' => $this->validator
             ]);
+          
         } else {
             $formModel->save([
                 'nombre' => $this->request->getVar('nombre'),

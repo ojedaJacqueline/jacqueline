@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Controllers;
-
 use App\Models\Usuarios_model;
 use CodeIgniter\Controller;
 
@@ -26,7 +25,7 @@ class Usuario_crud_controller extends Controller
     {
         $crudModel = new Usuarios_model();
 
-    $data['user_data'] = $crudModel->where('baja', 'SI');
+    $data['user_data'] = $crudModel->orderBy('id','ASC')->findAll();
 
      $data['titulo']='UserInactivos';
        echo view('front/head',$data);
@@ -92,9 +91,7 @@ class Usuario_crud_controller extends Controller
     public  function fetch_single_data($id = null)
     {
         $crudModel = new Usuarios_model();
-
         $data['user_data'] = $crudModel->where('id', $id)->first();
-
         $dato['titulo'] = 'Editar';
         echo view('front/head', $dato);
         echo view('front/navbar');
@@ -105,7 +102,6 @@ class Usuario_crud_controller extends Controller
     public  function edit_validation()
     {
         helper(['form', 'url']);
-
         $error = $this->validate(
             [
                 'nombre'   => 'required|min_length[3]',
@@ -168,14 +164,86 @@ class Usuario_crud_controller extends Controller
         }
     }
     /*----------------//FIN//EDITAR USUARIO-------------- */
+/*-------------------AGREGAR USUARIO -------------------*/
+
+	public function __construct(){
+           helper(['form','url']);
+	}  
+    public function create() {
+         
+        $data['titulo']='CrearUsuario'; 
+         echo view('front/head',$data);
+         echo view('front/navBar');
+         echo view('back/administrador/crearUser');
+          echo view('front/footer'); 
+    }
+    public function formValidation() {
+          helper(['form','url']); 
+        $input = $this->validate([
+            'nombre'   => 'required|min_length[3]',
+            'apellido' => 'required|min_length[3]|max_length[25]',
+            'email'    => 'required|min_length[4]|max_length[100]|valid_email|is_unique[usuarios.email]',
+            'usuario'  => 'required|min_length[3]',
+            'password' => 'required|min_length[3]|max_length[10]'
+        ], [   // Errors
+            'nombre' => [
+                'required' => 'error al ingresar nombre ',
+            ],
+            'apellido' => [
+                'required' => 'error al ingresar apellido ',
+            ],
+            'email' => [
+                'required' => 'error al ingresar email ',
+            ],
+            'usuario' => [
+                'required' => 'error al ingresar usuario ',
+            ],
+            'password' => [
+                'required' => 'error al ingresar contraseña ',
+            ],
+
+        ]);
+        $formModel = new Usuarios_model();
+        if (!$input) {
+               $data['titulo']='CrearUsuario'; 
+                echo view('front/head',$data);
+                echo view('front/navBar');
+                echo view('back/administrador/crearUser', [
+                'validation' => $this->validator
+            ]);
+        
+        } else {
+            $formModel->save([
+                'nombre' => $this->request->getVar('nombre'),
+                'apellido' => $this->request->getVar('apellido'),
+                'usuario' => $this->request->getVar('usuario'),
+                'email'  => $this->request->getVar('email'),
+                'password' => password_hash($this->request->getVar('password'), PASSWORD_DEFAULT),
+            ]); 
+             
+              return $this->response->redirect(site_url('/'));
+        }
+    }
+
+
+
+
+
+/*-------------------//FIN//AGREGAR USUARIO -------------------*/
+
+
+
+
+
+
+
+
+
+
     /*---- ELIMINACION LOGICA---- */
     public function eliminacionLogica($id = null)
     {
-
         $crudModel = new Usuarios_model();
-
-    
-        
         $data = $crudModel->where('id', $id)->first();
         if ($data['baja'] == 'NO') {
 

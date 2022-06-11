@@ -12,7 +12,7 @@
                 <form method="post" action="<?php echo base_url('Producto_controller/edit_validation'); ?>">
                     <div class="form-group">
                         <label>Categoria</label>
-                        <input type="text" name="categoria_id" class="form-control" value="<?php echo $user_data['categoria_id']; ?>">
+                        <input type="text" name="categoria_id" class="form-control" value="<?php echo $prod_data['categoria_id']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -28,7 +28,7 @@
                     </div>
                      <div class="form-group">
                         <label>imagen</label>
-                        <input type="file" name="" class="form-control" value="<?php echo $user_data['imagen']; ?>">
+                        <input type="file" name="" class="form-control" value="<?php echo $prod_data['imagen']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -44,7 +44,7 @@
                     </div>
                     <div class="form-group">
                         <label>nombre Producto</label>
-                        <input type="text" name="nombreProd" class="form-control" value="<?php echo $user_data['nombreProd']; ?>">
+                        <input type="text" name="nombreProd" class="form-control" value="<?php echo $prod_data['nombreProd']; ?>">
 
                         <?php 
                         if($validation->getError('nombreProd'))
@@ -59,7 +59,7 @@
                     </div>
                     <div class="form-group">
                         <label>Cantidad</label>
-                        <input type="text" name="stock" class="form-control" value="<?php echo $user_data['stock']; ?>">
+                        <input type="text" name="stock" class="form-control" value="<?php echo $prod_data['stock']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -75,7 +75,7 @@
                     </div>
                     <div class="form-group">
                         <label>Cantidad minima</label>
-                        <input type="number" name="stock_min" class="form-control" value="<?php echo $user_data['stock_min']; ?>">
+                        <input type="number" name="stock_min" class="form-control" value="<?php echo $prod_data['stock_min']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -91,7 +91,7 @@
                     </div>
                     <div class="form-group">
                         <label>Precio</label>
-                        <input type="number" name="precio" class="form-control" value="<?php echo $user_data['precio']; ?>">
+                        <input type="number" name="precio" class="form-control" value="<?php echo $prod_data['precio']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -107,7 +107,7 @@
                     </div>
                     <div class="form-group">
                         <label>Precio Venta</label>
-                        <input type="number" name="precio_venta" class="form-control" value="<?php echo $user_data['precio_venta']; ?>">
+                        <input type="number" name="precio_venta" class="form-control" value="<?php echo $prod_data['precio_venta']; ?>">
 
                         <!-- Error -->
                         <?php 
@@ -123,7 +123,7 @@
                     </div>
                     <br>
                     <div class="form-group">
-                        <input type="hidden" name="id" value="<?php echo $user_data["id"]; ?>" />
+                        <input type="hidden" name="id" value="<?php echo $prod_data["id"]; ?>" />
                         <button type="submit" class="btn btn-success">Guardar</button>
                     </div>
                 </form>
