@@ -20,12 +20,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('produc'); ?>">CRUD Productos</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Consultas</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="<?php echo base_url('consulLog'); ?>">Consultas Logeados</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('consulNolog'); ?>">Consultas NO Logeados</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="<?php echo base_url('consultas'); ?>">Consultas</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="<?php echo base_url('#'); ?>">Ventas</a>
@@ -65,7 +61,7 @@
                 <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y usos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('carrito'); ?>"><img src="public/assets/img/bx-shopping-bag.svg" alt="carrito"></a>
+                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('carrito'); ?>"><img src="<?php echo base_url('public/assets/img/bx-shopping-bag.svg'); ?>" alt="carrito"></a>
               </li>
               <li class="nav-item">
                 <a><i class="nav-link" style="color:aquamarine;">HOLA, <?php echo $_SESSION['nombre'] ?> </i></a>
@@ -106,10 +102,10 @@
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('registro'); ?>">Registrarse <img src="public/assets/img/user.svg" alt="ingresar"></a>
+                  <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('registro'); ?>">Registrarse <img src="<?php echo base_url('public/assets/img/user.svg'); ?>" alt="ingresar"></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color:aquamarine;" href="<?php echo base_url('login'); ?>">Ingresar <img src="public/assets/img/log-in.svg" alt="ingresar"></a>
+                  <a class="nav-link" style="color:aquamarine;" href="<?php echo base_url('login'); ?>">Ingresar <img src="<?php echo base_url('public/assets/img/log-in.svg'); ?>" alt="ingresar"></a>
                 </li>
         </div>
       <?php endif; ?>

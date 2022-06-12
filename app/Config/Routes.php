@@ -72,7 +72,9 @@ $routes->post('enviar', 'Usuario_crud_controller::formValidation');
 $routes->get('editar-usuario/(:num)', 'Usuario_crud_controller::fetch_single_data/$1');
 $routes->get('add/(:num)', 'Usuario_crud_controller::add/$1');
 $routes->post('edit_validation', 'Usuario_crud_controller::edit_validation');
-
+/* consultas */
+$routes->get('consultas', 'Consulta_controller::VerConsultas');
+$routes->get('consultas_no_log', 'Consulta_controller::VerConsultasNOL');
 //RUTAS PRODUCTOS
 /* la vista de producto lista activos.. */
 
@@ -88,10 +90,6 @@ $routes->post('editvalidation', 'Producto_controller::edit_validation');
 /* alta producto */
 $routes->get('agregarp', 'Home::store');//falta
 
-
-//RUTAS CONSULTAS
-$routes->get('consulNolog', 'Home::consultasNoLog');
-$routes->get('consulLog', 'Home::consultasLog');
 
 /* --------------------------------------------- */
 /*RUTAS CLIENTE */

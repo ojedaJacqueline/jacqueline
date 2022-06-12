@@ -129,24 +129,7 @@ echo view('front/navBar');
 echo view('back/administrador/inicioAdm');
 echo view('front/footer');
 }
-// cambiar a Usuario_crud_controller
- public  function consultasNoLog()
- {
-  $data['titulo']=' consultasNoLog';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/consultasNoLog');
-    echo view('front/footer');
- }
-// cambiar a Usuario_crud_controller
- public  function consultasLog()
- {
-  $data['titulo']='consultasLog';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/administrador/consultasLog');
-    echo view('front/footer');
- }
+
 
 
 

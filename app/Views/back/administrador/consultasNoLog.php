@@ -15,28 +15,21 @@
                 <th>Email</th>
                 <th>Asunto</th>
                 <th>Comentario</th>
+                <th>Registrado</th>
               </tr>
-              <tr>
-                <td>1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
+              <?php foreach($consul_data as $key => $user) :?>
+                <?php if($user['registrado'] == 'NO'): ?>
+                  
+                <tr>
+                <td><?= $user["id_contacto"] ?></td>
+                <td><?= $user["nya"] ?></td>
+                <td><?= $user["email"] ?></td>
+                <td><?= $user["asunto"] ?></td>
+                <td><?= $user["mensaje"] ?></td>
+                <td><?= $user["registrado"] ?></td>
               </tr>
-              <tr>
-                <td >1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
-              </tr>
+              <?php endif; ?>
+                <?php endforeach; ?>
           </table>
         </div>
       </div>

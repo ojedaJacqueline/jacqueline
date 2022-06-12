@@ -1,0 +1,55 @@
+CRITICAL - 2022-06-12 00:07:50 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\consultasNoLog.php(21): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Consulta_controller.php(98): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->VerConsultasNOL()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 13:49:25 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\consultasLog.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Consulta_controller.php(85): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->VerConsultas()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 14:32:48 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\consultasLog.php(24): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Consulta_controller.php(49): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->VerConsultas()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 14:35:21 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\consultasLog.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 26, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Consulta_controller.php(49): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->VerConsultas()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-12 14:37:15 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\consultasLog.php(23): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 23, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Consulta_controller.php(49): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Consulta_controller->VerConsultas()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Consulta_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

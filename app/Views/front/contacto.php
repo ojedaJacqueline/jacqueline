@@ -8,10 +8,13 @@
   <div class="row">
     <!-------------------Columna1--- contacto------------------------------------------>
     <div class="col ">
+      <br>
       <div class=" mb-3 mt-3">
-        <p>Encontrate con una atención diferente y un asesoramiento de confianza</p>
-        <p>Contactanos, vamos a responderte lo antes posible.</p>
+        <p style="color:darkgreen;">Encontrate con una atención diferente y un asesoramiento de confianza</p>
+        <p style="color:darkgreen;">Contactanos, vamos a responderte lo antes posible.</p>
       </div>
+      <br>
+      <br>
       <div>
         <p style="color: red ;"><?php echo ($info);?> </p>
       </div>
@@ -34,7 +37,7 @@
           <input type="hidden" name="nya" value= <?php echo($nya) ?> >
           <input type="hidden" name="email" value= <?php echo($email) ?> >
         <?php endif; ?>
-
+        <br>
         <div class="mb-3">
           <label for="pwd" class="form-label">Asunto:</label>
           <input type="text" class="form-control" id="Asun" placeholder="Escribir Asunto" name="asunto">
@@ -53,7 +56,7 @@
     <!-------------------FinColumna1---contacto------------------------------------------>
     <!-------------------Columna2--------------------------------------------->
     <div class="container-fluid col-md-10 col-lg-11 col-xl-5 mx-auto py-5 ">
-      <img class="rounded" src="public/assets/img/contactanos.jpg" style="width:100%">
+      <img class="rounded" src="<?php echo base_url('public/assets/img/contactanos.jpg'); ?>" style="width:100%">
     </div>
     <!-------------------FinColumna2--------------------------------------------->
   </div>
@@ -64,8 +67,8 @@
 <br>
 <div class="container">
   <h1>Ubicación de nuestro local </h1>
-  <p><img class="rounded" src="public/assets/img/pin-map-fill.svg" alt=""> Arg-Corrientes-Cap. Dardo Rocha N°1234</p>
-  <a href="https://www.google.com.ar/maps/place/Campus+Deodoro+Roca+UNNE/@-27.4673222,-58.7841178,16z/data=!4m5!3m4!1s0x94456ae284823a77:0xce73860ab8048b62!8m2!3d-27.4662651!4d-58.7838399"> <img src="public/assets/img/gps.png" width="1000" height="500"></a>
+  <p><img class="rounded" src="<?php echo base_url('public/assets/img/pin-map-fill.svg'); ?>" alt=""> Arg-Corrientes-Cap. Dardo Rocha N°1234</p>
+  <a href="https://www.google.com.ar/maps/place/Campus+Deodoro+Roca+UNNE/@-27.4673222,-58.7841178,16z/data=!4m5!3m4!1s0x94456ae284823a77:0xce73860ab8048b62!8m2!3d-27.4662651!4d-58.7838399"> <img src="<?php echo base_url('public/assets/img/gps.png'); ?>" width="1000" height="500"></a>
 </div>
 <br>
 <div class="col-md-12">
@@ -73,7 +76,7 @@
     <h1 class="card-title alignderecha"> Razón Social</h1>
     <p class="card-text alignderecha">Ojeda,Emma<br>Email: Ojedaem@gmail.com<br> CUIT:30-2153458-07</p>
     <div class="col-md-12">
-      <img src="public/assets/img/0.jpg" class="img-thumbnail" alt="nosotros" width="300" height="300">
+      <img src="<?php echo base_url('public/assets/img/0.jpg'); ?>" class="img-thumbnail" alt="nosotros" width="300" height="300">
     </div>
   </div>
 </div>
