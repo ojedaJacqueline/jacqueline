@@ -5,7 +5,7 @@
       <div class="col-md-7">
         <div class="card">
           <div class="card-header" style="color:darkgreen;">
-            CONSULTAS USUARIOS REGISTRADOS
+            CONSULTAS 
           </div>
           <div class="table-responsive">
             <table class="table d-flex">
@@ -25,6 +25,7 @@
                      <td><?= $user["email"] ?></td>
                      <td><?= $user["mensaje"] ?></td>
                      <td><?= $user["registrado"] ?></td>
+                </tr>
                 <?php endforeach; ?>
             </table>
           </div>

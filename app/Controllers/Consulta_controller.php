@@ -41,10 +41,11 @@ class Consulta_controller extends Controller
 public  function VerConsultas()
 {
     $crudMode = new Consultas_model();
-    $data['consul_data'] = $crudMode->orderBy('id', 'DESC');
+    $data['consul_data'] = $crudMode->orderBy('id_contacto', 'DESC')->paginate(100);;
 
-    $dato['titulo'] = 'Consultas';
-    echo view('front/head', $dato);
+
+    $data['titulo'] = 'Consultas';
+    echo view('front/head', $data);
     echo view('front/navbar');
     echo view('back/administrador/consultasLog',$data);
     echo view('front/footer');
