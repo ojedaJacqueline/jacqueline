@@ -81,10 +81,11 @@ public  function comercializacion()
 public  function contacto()
 {
  $data['titulo']='contacto';
+ $data2['info']='';
    echo view('front/head',$data);
    echo view('front/navBar');
-   echo view('front/contacto');
-  echo view('front/footer');
+   echo view('front/contacto',$data2);
+    echo view('front/footer');
 
 }
 

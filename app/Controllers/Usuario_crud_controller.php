@@ -132,7 +132,7 @@ class Usuario_crud_controller extends Controller
 
             ]
         ); //validado los datos del formulario 
-
+ 
         $crudModel = new Usuarios_model();
 
         $id = $this->request->getVar('id');

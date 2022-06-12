@@ -11,32 +11,32 @@
    <div class="row">
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/sa1.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso7.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">BLAZER</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <br>
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/sa2.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso6.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">BLAZER Verde</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/sa3.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso5.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">BLAZER Nego</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -53,7 +53,7 @@
             <div class="card-body">
                <h4 class="card-title">Cartera Chic</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -64,7 +64,7 @@
             <div class="card-body">
                <h4 class="card-title">Cartera eco cuero</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -74,7 +74,7 @@
             <div class="card-body">
                <h4 class="card-title">Cartera fas</h4>
               
-               <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+               <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -86,32 +86,32 @@
    <div class="row">
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/bolsos/bolso14.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso10.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Cartera Chic</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <br>
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/bolsos/bolso3.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso2.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Cartera eco cuero</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/bolsos/bolso121.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso12.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Cartera fas</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -123,32 +123,32 @@
    <div class="row">
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/pan123.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso9.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Jeans Nego</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <br>
       <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/pan1.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso8.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Pantalón de vestir</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
       <div class="col-md-3 col-lg-2 col-xl-3 mx-auto mt-3">
          <div class="card" style="width:300px">
-            <img class="card-img-top" src="public/assets/img/cargo12.jpg" alt="Card image" style="width:100%">
+            <img class="card-img-top" src="public/assets/img/bolsos/bolso4.jpg" alt="Card image" style="width:100%">
             <div class="card-body">
                <h4 class="card-title">Cargo</h4>
               
-                <i class='bx bx-purchase- btn btn-dark'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
+                <i class='bx bx-purchase- btn btn-primary'  data-bs-toggle="modal" data-bs-target="#unoModal">comprar</i>
             </div>
          </div>
       </div>
@@ -169,8 +169,8 @@
       <!-- Modal body -->
       <div class="modal-body">
       <p>Debe INGRESAR para poder realizar una compra </p>
-      <a class="btn btn-link" href="<?php echo base_url('login'); ?>"> HACE CLIC AQUÍ PARA INGRESAR</a>  
-      <a class="btn btn-link" href="<?php echo base_url('registro'); ?>">SI AÚN NO TE REGISTRASTE HACE CLIC AQUÍ</a>
+      <a class="btn btn-link" href="<?php echo base_url('login'); ?>"> Hace CLIC AQUÍ para INGRESAR</a>  
+      <a class="btn btn-link" href="<?php echo base_url('registro'); ?>">SI AÚN NO TE REGISTRASTE, HACE CLIC AQUÍ</a>
 
       </div>
       <!-- Modal footer -->

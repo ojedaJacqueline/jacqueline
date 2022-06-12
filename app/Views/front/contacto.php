@@ -6,29 +6,42 @@
 <div class="container">
   <!-------------------Fila--------------------------------------------->
   <div class="row">
-    <!-------------------Columna1--------------------------------------------->
+    <!-------------------Columna1--- contacto------------------------------------------>
     <div class="col ">
       <div class=" mb-3 mt-3">
         <p>Encontrate con una atención diferente y un asesoramiento de confianza</p>
         <p>Contactanos, vamos a responderte lo antes posible.</p>
       </div>
+      <div>
+        <p style="color: red ;"><?php echo ($info);?> </p>
+      </div>
       <!-------------------Formulario--------------------------------------------->
-      <form>
+      <form method="post" action="<?php echo base_url("Consulta_controller/guardar_consulta") ?>">
+        <?php if (session()->get('logged_in') != 'TRUE') : ?>
         <div class="mb-3 mt-3">
-          <label for="email" class="form-label">Apellido y Nombre:</label>
-          <input type="email" class="form-control" id="AyN" placeholder="Escribir Apellido y Nombre" name="email">
+          <label for="text" class="form-label">Apellido y Nombre:</label>
+          <input type="text" class="form-control" id="nya" placeholder="Escribir Apellido y Nombre" name="nya">
         </div>
         <div class="mb-3 mt-3">
           <label for="email" class="form-label">Email:</label>
           <input type="email" class="form-control" id="email" placeholder="Escribir Email" name="email">
         </div>
+        <?php else : ?>
+          <?php $nya = session()->get('apellido') . ' ' . session()->get('nombre') ;
+          $email = session()->get('email') ;
+          echo($nya);
+          ?>
+          <input type="hidden" name="nya" value= <?php echo($nya) ?> >
+          <input type="hidden" name="email" value= <?php echo($email) ?> >
+        <?php endif; ?>
+
         <div class="mb-3">
           <label for="pwd" class="form-label">Asunto:</label>
-          <input type="password" class="form-control" id="Asun" placeholder="Escribir Asunto" name="pswd">
+          <input type="text" class="form-control" id="Asun" placeholder="Escribir Asunto" name="asunto">
         </div>
         <div class=" mb-3">
           <label for="comment">Comentario:</label>
-          <textarea class="form-control" rows="5" id="comment" placeholder="Escribir Comentario" name="text"></textarea>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Escribir Comentario" name="texto"></textarea>
         </div>
         <div class="float-end">
           <button type="submit" class="btn btn-primary">Enviar</button>
@@ -37,7 +50,7 @@
       </form>
       <!-------------------FinFormulario--------------------------------------------->
     </div>
-    <!-------------------FinColumna1--------------------------------------------->
+    <!-------------------FinColumna1---contacto------------------------------------------>
     <!-------------------Columna2--------------------------------------------->
     <div class="container-fluid col-md-10 col-lg-11 col-xl-5 mx-auto py-5 ">
       <img class="rounded" src="public/assets/img/contactanos.jpg" style="width:100%">

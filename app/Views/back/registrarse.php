@@ -11,7 +11,7 @@
     <div class=" col-lg-7 px-5 pt-5" style="width: 50%;">
       <div class="text-center col-10">
         <h1>REGISTRARSE</h1>
-      </div>
+      </div> 
       <?php $validation = \Config\Services::validation(); ?>
       <form method="post" action="<?php echo base_url('enviar-form') ?>">
         <div class="card-body" media="(max-width:768px)">

@@ -21,11 +21,13 @@ class Login_controller extends Controller
         $model = new Usuarios_model();
         $email = $this->request->getVar('email');
         $password = $this->request->getVar('password');
+
         $data = $model->where('email', $email)->first();
+
         if($data){
             $pass = $data['password'];
             $verify_pass = password_verify($password, $pass);
-            if($verify_pass){
+            if($verify_pass and $data['baja'] == 'NO'){
                 $ses_data = [
                     'id' => $data['id'],
                     'nombre' => $data['nombre'],
