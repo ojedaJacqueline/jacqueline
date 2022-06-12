@@ -62,10 +62,11 @@ class Cart
     {
         $this->session = session();
 
-        // Grab the shopping cart array from the session table
+        // Toma la matriz del carrito de compras de la tabla de sesión
         $this->cartContents = $this->session->get('cart_contents');
         if ( $this->cartContents === null ) {
-            // No cart exists so we'll set some base values
+            
+// No existe ningún carrito, por lo que estableceremos algunos valores base
             $this->cartContents = [ 'cart_total' => 0, 'total_items' => 0 ];
         }
 
