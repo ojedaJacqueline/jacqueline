@@ -43,9 +43,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url('#'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">SACOS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">CARTERAS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('cataBD'); ?>">PANTALONES</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">SACOS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">CARTERAS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">PANTALONES</a></li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -61,7 +61,7 @@
                 <a class="nav-link" href="<?php echo base_url('terminos'); ?>">Términos y usos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('carrito'); ?>"><img src="<?php echo base_url('public/assets/img/bx-shopping-bag.svg'); ?>" alt="carrito"></a>
+                <a class="nav-link" style="color:lightgreen;" href="<?php echo base_url('ca'); ?>"><img src="<?php echo base_url('public/assets/img/bx-shopping-bag.svg'); ?>" alt="carrito"></a>
               </li>
               <li class="nav-item">
                 <a><i class="nav-link" style="color:aquamarine;">HOLA, <?php echo $_SESSION['nombre'] ?> </i></a>

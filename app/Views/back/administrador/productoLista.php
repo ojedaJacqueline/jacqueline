@@ -33,10 +33,18 @@
             </tr>
             <?php foreach ($prod_data as $key => $user) :?>
                 <?php if($user['eliminado'] == 'NO'): ?>
+                  <?php foreach ($descripcion as $key => $desc) : 
+                      $bb =$user["categoria_id"];           
+                      $aa = $desc["id"];
+                       if ($aa == $bb) :
+                        $algo = $desc["descripcion"];
+                       endif; 
+                      endforeach; ?>
                  <tr>
-                     <td> <?= $user["id"] ?></td>
-                     <td><?= $user["categoria_id"] ?></td>
-                     <td><?= $user["imagen"] ?></td>
+                  
+                     <td><?= $user["id"] ?></td>
+                      <td><?= $algo ?></td>
+                     <td><img class="img-fluid alto_min"  src="<?= base_url('public/assets/uploads/'. $user["imagen"]) ?>" alt=""> </td>
                      <td><?= $user["nombreProd"] ?></td>
                      <td><?= $user["stock"] ?></td>
                      <td><?= $user["stock_min"] ?></td>
@@ -56,39 +64,100 @@
 <!------------//FIN//div que contiene al boton y a la lista de prod-------------->    
 <!------------ AGREGAR PRODUCTOS-------------->   
     <div class="col-md-4">
+
       <div class="card">
         <div class="card-header">
           Nuevo Producto:
         </div>
-        <form action="" class="p-4">
+        <?php $validation = \Config\Services::validation(); ?>
+        <form method="post" enctype="multipart/form-data" action="<?php echo base_url('Producto_controller/guardarProd') ?>" class="p-4">
           <div class="mb-3">
-            <label class="form-label">Categoria</label>
-            <input type="text" class="form-control" name="textNombre" autofocus>
+            <label for="exampleFormControlInput1" class="form-label">Categoria</label>
+            <select name="categoria_id" class="form-control">
+                            <option value="1" >sacos</option>
+                            <option value="2">carteras</option>
+                            <option value="3">pantalones</option>
+                        </select>
+
+             <!-- Error -->
+             <?php if($validation->getError('categoria_id')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('categoria_id'); ?>
+                            </div>
+                        <?php }?>
           </div>
+
           <div class="mb-3">
-            <label class="form-label">Cantidad del producto</label>
-            <input type="number" class="form-control" name="textEdad" autofocus>
+            <label for="exampleFormControlInput1"  class="form-label">Cantidad del producto</label>
+            <input type="number" class="form-control" name="stock" autofocus>
+            <!-- Error -->
+            <?php if($validation->getError('stock')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('stock'); ?>
+                            </div>
+                        <?php }?>
           </div>
+
           <div class="mb-3">
-            <label class="form-label">Nombre del producto</label>
-            <input type="text" class="form-control" name="textEdad" autofocus>
+            <label for="exampleFormControlInput1"  class="form-label">Cantidad del producto min</label>
+            <input type="number" class="form-control" name="stock_min" autofocus>
+            <!-- Error -->
+            <?php if($validation->getError('stock_min')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('stock_min'); ?>
+                            </div>
+                        <?php }?>
           </div>
+
           <div class="mb-3">
-            <label class="form-label">Precio del producto</label>
-            <input type="number" class="form-control" name="numero" step="0.1" autofocus>
+            <label for="exampleFormControlInput1"  class="form-label">Nombre del producto</label>
+            <input type="text" class="form-control" name="nombreProd" autofocus>
+            <!-- Error -->
+            <?php if($validation->getError('nombreProd')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('nombreProd'); ?>
+                            </div>
+                        <?php }?>
           </div>
+
           <div class="mb-3">
-            <label class="form-label">Imagen del producto</label>
-            <input type="file" id="userFile" accept="image/*" multiple>
+            <label for="exampleFormControlInput1"  class="form-label">Precio del producto</label>
+            <input type="number" class="form-control" name="precio" step="0.1" autofocus>
+            <!-- Error -->
+            <?php if($validation->getError('precio')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('precio'); ?>
+                            </div>
+                        <?php }?>
           </div>
+
+          <div class="mb-3">
+            <label for="exampleFormControlInput1"  class="form-label">Precio del producto venta</label>
+            <input type="number" class="form-control" name="precio_venta" step="0.1" autofocus>
+            <!-- Error -->
+            <?php if($validation->getError('precio_venta')) {?>
+                            <div class='alert alert-danger mt-2'>
+                                <?= $error = $validation->getError('precio_venta'); ?>
+                            </div>
+                        <?php }?>
+          </div>
+
+
+          <div class="mb-3">
+            <label  class="form-label">Imagen del producto</label>
+            <input type="file" id="imagen" name='imagen' accept="image/*" multiple>
+          </div>
+
           <div class="d-grid">
-            <input type="hidden" name="oculto" value="1">
-            <input type="submit" class="btn btn-primary" value="Cargar Producto">
-          </div>
+          <div class="form-group mt-3">
+                        <button type="submit" class="btn btn-primary">Agregar</button>
+                        <a class="btn btn-primary" href="<?php echo base_url('produc')?>">Cancelar</a>
+                    </div>
         </form>
       </div>
     </div>
 <!------------//FIN// AGREGAR PRODUCTOS-------------->  
+  </div>
   </div>
 </div>
 <br>

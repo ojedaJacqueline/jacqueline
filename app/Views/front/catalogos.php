@@ -151,12 +151,12 @@
     <div class="modal-content">
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title" style="color:red ;" >ALERTA</h4>
+        <h4 class="modal-title" style="color:red ;" >Para poder realizar la compra debes estar REGISTRADO</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
       <!-- Modal body -->
       <div class="modal-body">
-      <p>Debe INGRESAR para poder realizar una compra </p>
+      <p> </p>
       <a class="btn btn-link" href="<?php echo base_url('login'); ?>"> HACE CLIC AQUÍ PARA INGRESAR</a>  
       <a class="btn btn-link" href="<?php echo base_url('registro'); ?>">SI AÚN NO TE REGISTRASTE, HACE CLIC AQUÍ</a>
 

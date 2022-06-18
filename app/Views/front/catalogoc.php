@@ -1,5 +1,9 @@
 <div class="container md-1 lg-1 xl-2 mx-auto mt-3">
-   <div class="color mt-4 p-5">
+  <?php if(!$productos) { ?>
+
+
+   <?php } else { ?>
+<div class="color mt-4 p-5">
       <h1>Cátalogo</h1>
    </div>
    <br>
@@ -163,12 +167,11 @@
     <div class="modal-content">
       <!-- Modal Header -->
       <div class="modal-header">
-        <h4 class="modal-title" style="color:red ;" >ALERTA</h4>
+        <h4 class="modal-title" style="color:red ;" >Para poder realizar la compra debes estar REGISTRADO</h4>
         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
       </div>
       <!-- Modal body -->
       <div class="modal-body">
-      <p>Debe INGRESAR para poder realizar una compra </p>
       <a class="btn btn-link" href="<?php echo base_url('login'); ?>"> Hace CLIC AQUÍ para INGRESAR</a>  
       <a class="btn btn-link" href="<?php echo base_url('registro'); ?>">SI AÚN NO TE REGISTRASTE, HACE CLIC AQUÍ</a>
 
@@ -180,3 +183,5 @@
     </div>
   </div>
 </div>
+
+ <?php } ?>

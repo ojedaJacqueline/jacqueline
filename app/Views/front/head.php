@@ -10,8 +10,10 @@
   <style>
 -->
   <title> <?php echo ($titulo); ?> </title>
+  <link rel="stylesheet" href="<?php echo base_url('public/assets/css/micarrito.css') ?>">
+  <!--  --><link rel="stylesheet" href="<?php echo base_url('public/assets/css/catalogo.css') ?>">
   <link rel="stylesheet" href="<?php echo base_url('public/assets/css/miestilo.css') ?>">
-  <link rel="stylesheet" href="<?php echo base_url('public/assets/css/carrito.css') ?>">
+  
   <link href="<?php echo base_url('public/assets/css/bootstrap.min.css'); ?>"  rel="stylesheet">
   <link href="<?php echo base_url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); ?>"  rel="stylesheet">
   <!-- icons -->

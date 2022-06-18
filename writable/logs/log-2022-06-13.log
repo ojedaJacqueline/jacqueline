@@ -1,0 +1,216 @@
+CRITICAL - 2022-06-13 00:35:26 --> Undefined index: REQUES_METHOD
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(170): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 170, Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-13 00:36:39 --> requered is not a valid rule.
+#0 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+#1 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombreProd', 'nombreProd', 'Carterammmmmmmm...', Array, Array)
+#2 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-13 00:43:50 --> requered is not a valid rule.
+#0 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+#1 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombreProd', 'nombreProd', 'Carterammmmmmmm...', Array, Array)
+#2 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-13 00:44:07 --> requered is not a valid rule.
+#0 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+#1 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombreProd', 'nombreProd', 'Carterammmmmmmm...', Array, Array)
+#2 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-13 00:45:05 --> requered is not a valid rule.
+#0 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('requered')
+#1 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('nombreProd', 'nombreProd', 'Carterammmmmmmm...', Array, Array)
+#2 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-06-13 00:53:03 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 00:53:03 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique(NULL, 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria', 'categoria', NULL, Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 00:56:18 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 00:56:18 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('2', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '2', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 00:59:09 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 00:59:09 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('2', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '2', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 01:01:46 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 01:01:46 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('2', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '2', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 01:14:00 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 01:14:00 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('3', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '3', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 01:30:58 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 01:30:58 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('3', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '3', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(178): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-06-13 01:32:57 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+CRITICAL - 2022-06-13 01:32:57 --> Table 'ojeda_jacqueline.categoria' doesn't exist
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Validation\Rules.php(104): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_not_unique('3', 'id', Array, NULL)
+#6 C:\xampp\htdocs\jacqueline\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('categoria_id', 'categoria_id', '3', Array, Array)
+#7 C:\xampp\htdocs\jacqueline\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(171): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#11 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-06-13 01:34:01 --> Invalid file: front/administrador/productoLista.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/administr...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('front/administr...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(186): view('front/administr...', Array)
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 01:36:01 --> Invalid file: front/administrador/productoLista.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/administr...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('front/administr...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(199): view('front/administr...', Array)
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 01:42:50 --> Invalid file: front/administrador/productoLista.php
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('front/administr...')
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('front/administr...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(199): view('front/administr...', Array)
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->guardarProd()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-13 23:28:09 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 23:28:17 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 23:28:22 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 23:28:35 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-13 23:30:22 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

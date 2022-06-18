@@ -1,67 +1,66 @@
-<br>
-<br>
-<div class="container">
-        <div class="row no-gutters" style="background-color:white ; border-radius:30px; box-shadow: 12px 12px 22px grey">
-<div class="  mt-3 mt-4 p-5">
-  <h1>Mi Carrito</h1>
+
+<div>
+    <!--PRODUCTOS EN CARRITO-->
+    <?php
+    $session = session();
+    $cart = \Config\Services::Cart();
+    $cart = $cart->contents();
+    if (empty($cart)) {
+        echo "Carrito vacio";
+    } else {
+    ?>
 </div>
-<br>
-<br>
-<br>
-<!-- Todos los items de carrito en "$cart". -->
-<div class="row">
-  <div class="col-md-8 container-fluid">
-    <div class="float-right">
-      <em></em>
-    </div>
-    <div class="table-responsive">
-      <table class="table border" cellpadding="5px" cellspacing="1px">
-        <tr class="table-success" id="main_heading">
-          <td>N*</td>
-          <td>Nombre</td>
-          <td>Precio</td>
-          <td>Cantidad</td>
-          <td>Total</td>
-          <td>Eliminar</td>
-        </tr>
-        <!-- Crea un formulario y envia valores a carrito_controller/actualiza carrito -->
-        <tr>
-          <td> </td>
-          <td> </td>
-          <td> $ </td>
-          <td> </td>
-          <td>$</td>
-          <td>
-            <!-- Imagen -->
-          </td>
-        </tr>
-      </table>
-      <!-- fintabel -->
-    </div>
-    <!-- col-md-8 container-fluid -->
-    <div class="container-fluid border text-right">
-      <b>Total: $</b>
-    </div>
-  </div>
-  <br>
-  <div class="col-md-3">
-    <div class="container-fluid text-center">
-      <a type="button" class="btn btn-danger btn-sm" href="">Borrar Carrito</a>
-      <!-- Submit boton. Actualiza los datos en el carrito
-                            <a type="submit" class="btn btn-success" >Actualizar</a> -->
-      <input type="submit" style="margin-right:0%;" class='btn btn-success btn-sm' value="Actualizar">
-    </div>
-  </div>
+<div class="container mt-4   table-responsive bg-light">
+    <table id="usuarios" class="table table-hover table-striped" style="width:100%">
+        <?php if ($cart == TRUE) { ?>
+            <thead>
+                <tr>
+                    <th>N item</th>
+                    <th>Nombre</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                    <th>Img</th>
+                    <th>Opcion</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+               
+                $gran_total = 0;
+                $i = 1;
+                foreach ($cart as $item) {
+                 ?>
+                    <tr>
+                        <td><?php echo $i++; ?></td>
+                        <td> <?php echo $item['name']; ?></td>
+                        <td> <?php echo number_format($item['price'], 2); ?></td>
+                        <td><?php echo $item['qty']; ?></td>
+                        <td> <?php $gran_total = $gran_total + $item['subtotal']; ?>
+                        <td> <?php echo number_format($item['subtotal'], 2); ?></td>
+                        <td>
+                        </td>
+                        <td><a href="<?php echo base_url('Carrito_controller/eliminar_prod_carrito?rowid=' . $item['rowid']); ?>" class="btn btn-secondary">Eliminar del carrito</td>
+                    </tr>
+                <?php };?>
+                <td>Total compra: $<?php echo number_format($gran_total, 2); ?></td>
+            </tbody>
+        <?php } ?>
+    </table>
+    <div><a href="<?php echo base_url('Carrito_controller/eliminar_carrito');?>">Eliminar carrito</a></div>
+    <?php helper('form');
+        
+                //envia los datos del producto en forma de formulario para agregar al carrito
+                echo form_open('Carrito_controller/guardarCompra');
+                echo form_hidden('id', $row['id']);
+                echo form_hidden('precio', $row['precio_venta']);
+                echo form_hidden('nombre', $row['nombreProd']);
+              ?>
+          <i class="bx bx-shopping-bag add-cart">      
+            <?php $btn = array('class' => 'btn ', 'value' => 'Agregar Carrito', 'name' => 'action');
+                echo form_submit($btn);
+                echo form_close(); 
+                ?>
+    <div><a href="<?php echo base_url('Carrito_controller/guardarCompra');?>">Confirmar compra</a></div>
 </div>
-<br>
-<div class="container-fluid text-center">
-  <a type="button" class="btn btn-warning btn-sm" href="">Comprar +</a>
-  <!-- Borrar carrito usa mensaje de confirmacion javascript implementado en partes/head_view -->
-  <!-- " Confirmar orden envia a carrito_controller/muestra_compra  -->
-  <a type="button" class="btn btn-success btn-sm" href="">Confirmar Orden</a>
-<br>
-</div>
-</div>
-</div>
-<br>
-<br>
+<?php } ?>

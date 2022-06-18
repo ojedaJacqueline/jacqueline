@@ -15,6 +15,7 @@ class Home extends BaseController
 
 }
 
+
 public  function quienes_somos()
 {
  $data['titulo']='quienesSomos';
@@ -143,24 +144,6 @@ echo view('front/footer');
     echo view('front/footer');
  } 
 
- /* CLIENTE */
- //cambiar a Carrito_controller
- public  function carrito()
- {
-  $data['titulo']=' login';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/cliente/miCarrito');
-    echo view('front/footer');
- } 
- //cambiar a Carrito_controller
- public  function micatalogo()
- {
-  $data['titulo']=' login';
-    echo view('front/head',$data);
-    echo view('front/navBar');
-    echo view('back/cliente/miCatalogo');
-    echo view('front/footer');
- } 
+
 
 }

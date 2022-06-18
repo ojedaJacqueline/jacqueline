@@ -32,10 +32,17 @@
             </tr>
             <?php foreach ($prod_data as $key => $user) :?>
                 <?php if($user['eliminado'] == 'SI'): ?>
+                  <?php foreach ($descripcion as $key => $desc) : 
+                      $bb =$user["categoria_id"];           
+                      $aa = $desc["id"];
+                       if ($aa == $bb) :
+                        $algo = $desc["descripcion"];
+                       endif; 
+                      endforeach; ?>
                  <tr>
                      <td> <?= $user["id"] ?></td>
-                     <td><?= $user["categoria_id"] ?></td>
-                     <td><?= $user["imagen"] ?></td>
+                     <td><?= $algo ?></td>
+                     <td><img class="img-fluid alto_min"  src="<?= base_url('public/assets/uploads/'. $user["imagen"]) ?>" alt=""> </td>
                      <td><?= $user["nombreProd"] ?></td>
                      <td><?= $user["stock"] ?></td>
                      <td><?= $user["stock_min"] ?></td>

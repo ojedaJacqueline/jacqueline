@@ -85,22 +85,22 @@ $routes->get('prodInactivos', 'Producto_controller::productosInactivos');
 /* editar producto */
 $routes->get('editar-producto/(:num)','Producto_controller::fetch_single_data/$1');
 $routes->get('vistaModifica/(:num)', 'Producto_controller::vistaModifica/$1');
-$routes->post('editvalidation', 'Producto_controller::edit_validation');
+$routes->post('editvalidation/(:num)', 'Producto_controller::edit_validation/$1');
 
 /* alta producto */
-$routes->get('agregarp', 'Home::store');//falta
+$routes->post('env-addProd','Producto_controller::store');
+
 
 
 /* --------------------------------------------- */
-/*RUTAS CLIENTE */
-
-$routes->get('cataBD', 'Home::catalogoBD');
-$routes->get('carrito', 'Carrito_controller::carrito');
+/*RUTAS CARRITO */
 $routes->get('todos_los_productos', 'Carrito_controller::catalogo');
+$routes->get('ca', 'Carrito_controller::carritoViews');
+$routes->get('AgregarCarrito', 'Carrito_controller::agregar');
 $routes->get('actualizarCarrito', 'Carrito_controller::actualizar_carrito');
-$routes->get('agregarCarrito', 'Carrito_controller::add');
 $routes->get('muestro', 'Carrito_controller::muestra');
-$routes->get('borrar', 'Carrito_controller::borrar_carrito');
+$routes->get('muestro', 'Carrito_controller::guardarCompra');
+$routes->get('borrar', 'Carrito_controller::eliminar_carrito');
 
 
 

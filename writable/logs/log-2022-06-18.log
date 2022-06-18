@@ -1,0 +1,167 @@
+CRITICAL - 2022-06-18 09:58:39 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 10:41:59 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 10:52:52 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 10:52:58 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:00:14 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:00:20 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:00:35 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:00:45 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:01:54 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:26:19 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:27:49 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:27:55 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 11:28:02 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 13:36:50 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(809): App\Controllers\Carrito_controller->__construct()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 13:38:06 --> Undefined index: nombre
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\InicioAdm.php(2): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Panel_controller.php(16): view('back/administra...')
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Panel_controller->index()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Panel_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-18 13:59:00 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:08:54 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:30:48 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:43:56 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:44:22 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:44:26 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:44:31 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-18 15:51:00 --> Call to a member function contents() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-18 16:15:16 --> The cart array must contain a product ID, quantity, price, and name.
+ERROR - 2022-06-18 16:16:16 --> The cart array must contain a product ID, quantity, price, and name.
+ERROR - 2022-06-18 16:16:26 --> The cart array must contain a product ID, quantity, price, and name.
+ERROR - 2022-06-18 16:22:48 --> The cart array must contain a product ID, quantity, price, and name.
+CRITICAL - 2022-06-18 16:22:48 --> Object of class CodeIgniterCart\Cart could not be converted to string
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->AgregarCarrito()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-18 16:23:45 --> The cart array must contain a product ID, quantity, price, and name.
+ERROR - 2022-06-18 16:24:58 --> The cart array must contain a product ID, quantity, price, and name.
+ERROR - 2022-06-18 16:25:18 --> The cart array must contain a product ID, quantity, price, and name.
+CRITICAL - 2022-06-18 18:11:01 --> Undefined variable: row
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\cliente\micarrito.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 57, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/cliente/mi...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(60): view('back/cliente/mi...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
