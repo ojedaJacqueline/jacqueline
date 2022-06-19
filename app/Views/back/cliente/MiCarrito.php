@@ -7,6 +7,7 @@
     $cart = $cart->contents();
     if (empty($cart)) {
         echo "Carrito vacio";
+    
     } else {
     ?>
 </div>
@@ -48,19 +49,7 @@
         <?php } ?>
     </table>
     <div><a href="<?php echo base_url('Carrito_controller/eliminar_carrito');?>">Eliminar carrito</a></div>
-    <?php helper('form');
-        
-                //envia los datos del producto en forma de formulario para agregar al carrito
-                echo form_open('Carrito_controller/guardarCompra');
-                echo form_hidden('id', $row['id']);
-                echo form_hidden('precio', $row['precio_venta']);
-                echo form_hidden('nombre', $row['nombreProd']);
-              ?>
-          <i class="bx bx-shopping-bag add-cart">      
-            <?php $btn = array('class' => 'btn ', 'value' => 'Agregar Carrito', 'name' => 'action');
-                echo form_submit($btn);
-                echo form_close(); 
-                ?>
+ 
     <div><a href="<?php echo base_url('Carrito_controller/guardarCompra');?>">Confirmar compra</a></div>
 </div>
 <?php } ?>

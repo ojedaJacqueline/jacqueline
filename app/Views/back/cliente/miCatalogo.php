@@ -5,7 +5,7 @@
   <h1>Catálogo</h1>
 </div>
 
-<section class=" row shop container">
+<section class=" row shop container ">
 <!-- Catalogo-->
 <?php foreach ($producto as $row){
 

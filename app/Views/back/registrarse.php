@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row no-gutters" style="background-color:white ; border-radius:30px; box-shadow: 12px 12px 22px grey">
     <!-- FOTO -->
-    <div class=" col-lg-5 mt-4">
+    <div class=" col-lg-5 ">
       <img src="public\assets\img\musica.jpg" class="img-fluid" alt="" style="border-radius:30px;">
     </div>
     <!-- FOTO -->
@@ -65,11 +65,13 @@
               </div>
             <?php } ?>
           </div>
+          <div class="mt-5">
           <input type="submit" value="guardar" class="btn btn-success">
           <input type="reset" value="cancelar" class="btn btn-danger">
+          </div>
         </div>
       </form>
-      <div class="d-grid">
+      <div class="d-grid mt-5">
         <a class="btn btn-link" href="<?php echo base_url('login'); ?>">¿ ESTAS REGISTRADO?HACE CLIC AQUÍ</a>
       </div>
        <!-- TABLA REGISTRO -->

@@ -10,7 +10,7 @@ class Panel_controller extends Controller
         $session = session();
         $nombre=$session->get('usuario');
         
-         $dato['titulo']='panel del administrador'; 
+         $dato['titulo']='Bienvenido'; 
         echo view('front/head',$dato);
         echo view('front/navBar');
         echo view('back/administrador/inicioAdm');

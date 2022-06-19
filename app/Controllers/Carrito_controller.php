@@ -94,6 +94,7 @@ class Carrito_controller extends BaseController
             'qty' => 1,
             'price' => $request->getPost('precio'),
             'name' => $request->getPost('nombre'),
+            'imagen' => $request->getPost('imagen'),
         ));
       
         //$cart->destroy();
@@ -103,7 +104,7 @@ class Carrito_controller extends BaseController
 
 
 /* FALTA IMPLEMENTAR EN LA VISTA Y TERMINAR LA FUNCION GUARDAR */
-
+/* 
     public function actualizar_carrito(){
         $cart = \Config\Services::Cart();
         $request = \Config\Services::request();
@@ -116,8 +117,8 @@ class Carrito_controller extends BaseController
         ));
         return redirect()->back()->withInput();
     }
- 
-     public function muestra(){
+  */
+/*      public function muestra(){
       helper(['form','url','cart']);
       
       $cart = \Config\Services::Cart();
@@ -134,13 +135,14 @@ class Carrito_controller extends BaseController
       echo view('back/cliente/carrito_parte');
       echo view('front/footer');
 
-     }
+     } */
 
+     /* FALTA */
  public function guardarCompra()
  {
     $fromModelCabecera = new VentaCabecera_model();
     $fromModelCabecera ->save([
-         'usaurio_id'=> session()->get('perfil_id'),
+         'usaurio_id'=> $this->request->getVAr('usuario_id'),//name
          'total_venta' => $this->request->getVAr('importeTotal')
     ]);
    $arrayResumen = $fromModelCabecera->findAll(); 

@@ -1,7 +1,7 @@
 <body>
     <br>
     <br>
-    <div class="container">
+    <div class="container ">
         <div class="row no-gutters" style="background-color:white ; border-radius:30px; box-shadow: 12px 12px 22px grey">
             <!--COLUMNA IMAGEN  -->
             <div class="col-lg-5">
@@ -9,14 +9,14 @@
             </div>
             <!-- //FIN// COLUMNA IMAGEN  -->
             <!-- COLUMNA INGRESAR -->
-            <div class="col-lg-7 px-5 pt-5">
-                <div class="col-10">
+            <div class="col-lg-7 px-5 pt-5 ">
+                <div class="col-10 mt-6">
                     <h1>INGRESAR</h1>
                     <?php if (session()->getFlashdata('msg')) : ?>
                         <div class="alert alert-danger"><?= session()->getFlashdata('msg') ?></div>
                     <?php endif; ?>
                     <form action="<?php echo base_url('enviarlogin'); ?>" method="post">
-                        <div class="mb-3">
+                        <div class="mb-3 ">
                             <label for="InputForEmail" class="form-label" style="color:darkgreen ;">Correo electrónico</label>
                             <input type="email" name="email" class="form-control" id="InputForEmail" placeholder="escribir correo electrónico"autofocus>
                         </div>
@@ -24,8 +24,10 @@
                             <label for="InputForPassword" class="form-label" style="color:darkgreen ;">Contraseña</label>
                             <input type="password" name="password" class="form-control" id="InputForPassword" placeholder="escribir contraseña">
                         </div>
+                     <div class="mt-5">
                         <button type="submit" class="btn btn-success">Ingresar</button>
                         <button type="reset" class="btn btn-danger">Cancelar</button>
+                        </div>
                     </form>
                     <br>
                     <br>
