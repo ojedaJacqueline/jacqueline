@@ -178,18 +178,34 @@ if( $cart = $cart->contents()):
        
      $vtaDetalleModel ->insert($ventaDet);
    
+     $producto = new Producto_Model();
+     $prod= $producto->find($item['id']);
+
+     //actualiza stock de producto
+     $dato = [
+         'nombreProd' => $prod['nombreProd'],
+         'imagen'=> $prod['imagen'],
+         'categoria_id' => $prod['categoria_id'],
+         'precio'=>$prod['precio'],
+         'precio_venta'=> $prod['precio_venta'],
+         'stock'=> $prod['stock'] - $item['qty'],
+     ];
+
+     $producto->update($prod['id'], $dato);
+
+
+
+
     endforeach;
 endif;
 
-$dato['titulo'] = 'comprafinalizada';
-echo view('front/head',$dato);
-echo view('front/navBar');
-echo view('back/cliente/micarrito', );
-echo view('front/footer');
 
 $cart = \Config\Services::cart();
 $cart->destroy();
-return $this->response->redirect(site_url('exitodecompra')); 
+return $this->response->redirect(site_url('exitodecompra'));
+
+
+
 
 }
 

@@ -86,3 +86,66 @@
   </main>
 </body>
 <?php } ?>
+
+
+
+public function envio_compra(){
+        $request = \Config\Services::request();
+        $session = session();
+        $id_user = $session->get('id');
+        $gran_total = $request->getPostGet('gran_total'); 
+
+        $formModel = new ventas_cabecera_model();
+
+        //guarda venta cabecera
+        $formModel->save([
+            'usuario_id' => $id_user,
+            'total_venta' => $gran_total,
+        ]);
+
+        $arrayResumen = $formModel->findAll();
+
+       $vtaDetalleModel= new ventas_detalle_model();
+
+        $request = \Config\Services::request();
+        $cart = \Config\Services::cart();
+        $carr = $cart->contents();
+
+        foreach ($carr as $item) {
+
+            //guarda venta detalle
+            $data = [
+                'venta_id'=> end($arrayResumen)['id'],
+                'producto_id'=>$item['id'],
+                'cantidad'=>$item['qty'],
+                'precio'=>$item['price'],
+                'total'=> $item['qty']*$item['price'],
+            ];
+
+            $vtaDetalleModel->save($data);
+
+            $producto = new Productos_model();
+            $prod= $producto->find($item['id']);
+
+            //actualiza stock de producto
+            $dato = [
+                'titulo' => $prod['titulo'],
+                'autor' => $prod['autor'],
+                'imagen'=> $prod['imagen'],
+                'categoria_id' => $prod['categoria_id'],
+                'precio'=>$prod['precio'],
+                'precio_vta'=> $prod['precio_vta'],
+                'stock'=> $prod['stock'] - $item['qty'],
+            ];
+
+            $producto->update($prod['id'], $dato);
+        };
+
+        $cart->destroy();
+
+        $session = \Config\Services::session();
+
+        $session->setFlashdata('success','Compra realizada con exito');
+        
+        return redirect('carrito');
+    }
