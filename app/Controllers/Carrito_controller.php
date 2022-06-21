@@ -44,6 +44,43 @@ class Carrito_controller extends BaseController
     echo view('front/footer');
 
     }
+    public function catalogoc(){
+      
+        //$session=session();
+       // $data['perfil_id'] = $session['perfil_id'];
+       // $data['nombre']  =  $session['nombre'];
+        //$dato = array ('titulo'=>'Todos los productos');
+      
+        $productoModel = new Producto_model();
+        $data['producto'] = $productoModel->orderBy('id','DESC')->findAll();
+   
+        $dato['titulo']  =  'productos disponibles';
+       echo view('front/head',$dato);
+       echo view('front/navBar');
+       echo view('back/cliente/miCatalogoc',$data);
+       echo view('front/footer');
+   
+       }
+       public function catalogop(){
+      
+        //$session=session();
+       // $data['perfil_id'] = $session['perfil_id'];
+       // $data['nombre']  =  $session['nombre'];
+        //$dato = array ('titulo'=>'Todos los productos');
+      
+        $productoModel = new Producto_model();
+        $data['producto'] = $productoModel->orderBy('id','DESC')->findAll();
+   
+        $dato['titulo']  =  'productos disponibles';
+       echo view('front/head',$dato);
+       echo view('front/navBar');
+       echo view('back/cliente/miCatalogop',$data);
+       echo view('front/footer');
+   
+       }
+
+
+
     public function carritoViews()
 {
     $sesion = session();

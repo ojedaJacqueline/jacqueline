@@ -7,9 +7,8 @@
 
 <section class=" row shop container ">
 <!-- Catalogo-->
-<?php foreach ($producto as $row){
-
-?>
+<?php foreach ($producto as $row){?>
+  <?php  if($row["eliminado"]=='NO' && $row["categoria_id"]==1) {?>
       <div class="shop-content mt-4 mt-5 p-5" style="width: 50%  ;">
         <!-- box1 -->
         <div class="product-box"style="width: 80%" class="product-img">
@@ -49,11 +48,11 @@
                 echo form_submit($btn);
                 echo form_close(); 
                 ?></i>
-                    <?php } else {?>
-                <?php }?>
+                    <?php } ?>
+              
               
         </div>
-    
+        <?php }?>
       </div>
       <?php } ;?> 
      

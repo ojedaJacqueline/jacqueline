@@ -94,7 +94,9 @@ $routes->post('env-addProd','Producto_controller::store');
 
 /* --------------------------------------------- */
 /*RUTAS CARRITO */
-$routes->get('todos_los_productos', 'Carrito_controller::catalogo');
+$routes->get('sacos', 'Carrito_controller::catalogo');
+$routes->get('carteras', 'Carrito_controller::catalogoc');
+$routes->get('pantalones', 'Carrito_controller::catalogop');
 $routes->get('ca', 'Carrito_controller::carritoViews');
 $routes->get('AgregarCarrito', 'Carrito_controller::agregar');
 $routes->get('actualizarCarrito', 'Carrito_controller::actualizar_carrito');

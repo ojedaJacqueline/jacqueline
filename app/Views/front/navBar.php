@@ -43,9 +43,9 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="<?php echo base_url('#'); ?>" role="button" data-bs-toggle="dropdown">Catálogo</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">SACOS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">CARTERAS</a></li>
-                  <li><a class="dropdown-item" href="<?php echo base_url('todos_los_productos'); ?>">PANTALONES</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('sacos'); ?>">SACOS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('carteras'); ?>">CARTERAS</a></li>
+                  <li><a class="dropdown-item" href="<?php echo base_url('pantalones'); ?>">PANTALONES</a></li>
                 </ul>
               </li>
               <li class="nav-item">
