@@ -113,47 +113,63 @@ public 	function add_validation()
     /* otra forma */
      public  function edit_validation(){
         // Se obtiene la clave unica --> "id"
-        $datosActuales = $this->request->getVar('id');
-       
-        $datos = $this->productos->where('id', $datosActuales)->first();
-        
-        // Se guarda el conjunto de datos recibidos
-        $nuevosDatos = $this->request->getPost();
-        echo($nuevosDatos);die;
-        $nuevosDatos['imagen'] = $datos['imagen'];  
+     $input = $input = $this->validate(
+        [
+            //'categoria_id'=>'required',
+            'nombreProd'=>'required|min_length[2]',
+            'imagen'=> 'required',
+            'stock'=>'required',
+            'stock_min'=>'required',
+            'precio'=>'required',
+            'precio_venta'=>'required',
+        ]);
 
-        $img_cargar = $this->request->getFile('imagen');
-        
-        if(!$img_cargar->isValid()){
-            $this->productos->desvalidarImagen();
-        }else{
-            $modificarImagen=\Config\Services::image();
-            $nombreImg= $img_cargar->getRandomName();
-            // move_uploaded_file($img_cargar, "assets\img\catalogo/" . $nombreImg);
-            $datosPost['imagen'] = $nombreImg;
-            $nuevosDatos['imagen'] = $nombreImg;
-        }
-        // Se actualiza el registro
-        if($this->productos->update($this->request->getVar('id'), $nuevosDatos)){
-            if($img_cargar->isValid()){
-              $img_cargar->move("public\assets\uploads", $nombreImg);
-            $modificarImagen->withFile("public\assets\uploads" . $nombreImg)->fit(500,500)->save("public\assets\uploads" . $nombreImg);  
-            }
-           /*  return redirect()->to(base_url('').'/administrador/productos')->with('alertaExitosa', 'Producto Modificado exitosamente!');*/ 
+        $productos = new Producto_Model();
 
-        }else{
-
-            $datos['titulo'] = 'Editar Producto';
-            $datos['marcas'] = $this->marca->findAll();
-            $datos['producto'] = $this->productos->where('pd_id', $datosActuales)->first();
-            $datos['categorias'] = $this->categorias->findAll();
-            $datos['validation'] = $this->productos->errors();
-            
-            echo view('front/head');
+     if(!$input)
+        {
+            $dato['titulo'] = 'Editar';
+            echo view('front/head',$dato);
             echo view('front/navbar');
-            echo view('back/administrador/modificarProd',$datos);
+            echo view('back/administrador/modificarProd',[
+                'error' => $this->validator
+            ]);
             echo view('front/footer');
+        } 
+        else 
+        {
+         
+            $id = $this->request->getVar('id');
+            $datos=  $productos->where('id',$id)->first();
+
+
+
+            $img = $this->request->getFile('imagen');
+            $nombre_aleatorio = $img->getRandomName(); 
+            $img->move(ROOTPATH.'public/assets/uploads',$nombre_aleatorio);
+       
+            $data = [
+                'categoria_id' => $this->request->getVar('categoria_id'),
+                'stock'=> $this->request->getVar('stock'),
+               'nombreProd' => $this->request->getVar('nombreProd'),
+               'imagen'=>$img->getName(),//obtener el nombre de la img
+               'precio'=>$this->request->getVar('precio'),
+               'precio_venta'=> $this->request->getVar('precio_venta'),
+               'stock_min'=> $this->request->getVar('stock_min'),
+               'eliminado'=> 'NO',
+              ];
+
+              $productos->update($id,$data);
+
+
+            return $this->response->redirect(site_url('/produc'));
         }
+
+
+
+
+
+
     }
 
 

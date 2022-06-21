@@ -131,7 +131,14 @@ echo view('back/administrador/inicioAdm');
 echo view('front/footer');
 }
 
-
+public function exito()
+{
+$dato['titulo']='exito_de_compra'; 
+echo view('front/head',$dato);
+echo view('front/navBar');
+echo view('back/cliente/exito');
+echo view('front/footer');
+}
 
 
  // cambiar a Usuario_crud_controller

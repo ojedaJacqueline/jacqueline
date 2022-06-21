@@ -139,7 +139,65 @@ class Carrito_controller extends BaseController
 
      /* FALTA */
  public function guardarCompra()
- {
+{
+    $sesion = session();
+    $data['id'] =  $sesion ->get('id');
+    $GranTotal = 0;
+    
+    $cart = \Config\Services::cart();
+    if ( $cart = $cart->contents()):
+       foreach ($cart as $item):
+            $GranTotal =$GranTotal + $item['subtotal'];
+             
+         endforeach;
+    endif;
+
+    $vtaCabeceraModel = new VentaCabecera_model();
+    $ventacab =[
+               'fecha' => date('Y-m-d'),
+               'usuarios_id' => $data['id'],
+               'total_venta' => $GranTotal,
+    ];
+   
+
+$venta_id =   $vtaCabeceraModel->insert($ventacab);
+
+
+/* VENTA DETALLE */
+$cart = \Config\Services::cart();
+if( $cart = $cart->contents()):
+    $vtaDetalleModel = new VentasDetalle_model();
+     foreach ($cart as $item):
+        $ventaDet = [
+            'ventas_id' => $venta_id,
+            'productos_id' => $item['id'],
+            'cantidad' => $item['qty'],
+            'precio' => $item['price'],
+            'total' => $item['subtotal']
+        ];
+       
+     $vtaDetalleModel ->insert($ventaDet);
+   
+    endforeach;
+endif;
+
+$dato['titulo'] = 'comprafinalizada';
+echo view('front/head',$dato);
+echo view('front/navBar');
+echo view('back/cliente/micarrito', );
+echo view('front/footer');
+
+$cart = \Config\Services::cart();
+$cart->destroy();
+return $this->response->redirect(site_url('exitodecompra')); 
+
+}
+
+
+
+
+
+/*  {
     $fromModelCabecera = new VentaCabecera_model();
     $fromModelCabecera ->save([
          'usaurio_id'=> $this->request->getVAr('usuario_id'),//name
@@ -166,7 +224,7 @@ class Carrito_controller extends BaseController
    return redirect('ca');
 
  }
-
+ */
 
 
 

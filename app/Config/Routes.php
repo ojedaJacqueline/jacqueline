@@ -102,7 +102,7 @@ $routes->get('muestro', 'Carrito_controller::muestra');
 $routes->get('muestro', 'Carrito_controller::guardarCompra');
 $routes->get('borrar', 'Carrito_controller::eliminar_carrito');
 
-
+$routes->get('exitodecompra', 'Home::exito');
 
 
 

@@ -1,14 +1,14 @@
 
 <div class="container">
    
-        <?php $validation = \Config\Services::validation();
-        ?>
+     
         <br>
         <h1>Editar Producto</h1>
         <br>
         <div class="card">
             <div class="card-header">Editar Producto</div>
             <div class="card-body">
+            <?php $validation = \Config\Services::validation();?>
                 <form method="post" action="<?php echo base_url('Producto_controller/edit_validation'); ?>">
                     <div class="form-group">
                         <label>Categoria</label>
@@ -30,21 +30,10 @@
                     </div>
                      <div class="form-group">
                         <label>imagen</label>
-                        <img src="<?= base_url('public/assets/uploads/'.$prod_data['imagen'])?>"alt="imagen de producto" height="100px" width="70px" >
+                        <img height="60px" width="60px"  src="<?= base_url('public/assets/uploads/'.$prod_data['imagen'])?>"alt="imagen de producto">
                         <input type="file" id="imagen" name="imagen" class="form-control" >
 
                         <div>
-                        <!-- Error -->
-                        <?php 
-                        if($validation->getError('imagen'))
-                        {
-                            echo "
-                            <div class='alert alert-danger mt-5'>
-                            ".$validation->getError('imagen')."
-                            </div>
-                            ";
-                        }
-                        ?>
                     </div>
                     </div>
                     <div class="form-group">

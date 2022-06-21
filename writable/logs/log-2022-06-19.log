@@ -9,3 +9,170 @@ CRITICAL - 2022-06-19 13:22:05 --> Undefined variable: row
 #7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
 #8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
 #9 {main}
+CRITICAL - 2022-06-19 16:22:24 --> Undefined property: App\Controllers\Producto_controller::$productos
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 16:23:52 --> Undefined property: App\Controllers\Producto_controller::$productos
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 16:43:39 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\modificarProd.php(18): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(109): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->fetch_single_data()
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 16:49:20 --> Undefined variable: cate
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\modificarProd.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(109): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->fetch_single_data('32')
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 16:54:45 --> Undefined variable: cate
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\modificarProd.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(109): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->fetch_single_data('32')
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 16:54:59 --> Undefined variable: cate
+#0 C:\xampp\htdocs\jacqueline\app\Views\back\administrador\modificarProd.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\jacqueline\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/administra...', Array, true)
+#4 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(109): view('back/administra...', Array)
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->fetch_single_data('32')
+#6 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#7 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-19 16:55:31 --> Undefined property: App\Controllers\Producto_controller::$productos
+#0 C:\xampp\htdocs\jacqueline\app\Controllers\Producto_controller.php(118): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 118, Array)
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-19 17:28:25 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 17:34:41 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-19 17:40:08 --> Call to a member function getRandomName() on null
+#0 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Producto_controller->edit_validation()
+#1 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Producto_controller))
+#2 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-19 22:41:13 --> Unknown column 'usaurio_id' in 'field list'
+CRITICAL - 2022-06-19 22:41:13 --> Unknown column 'usaurio_id' in 'field list'
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacqueline\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacqueline\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->guardarCompra()
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-06-19 23:41:42 --> syntax error, unexpected end of file
+#0 C:\xampp\htdocs\jacqueline\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\jacqueline\system\Common.php(1089): CodeIgniter\View\View->render('back/cliente/mi...', Array, true)
+#2 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(60): view('back/cliente/mi...', Array)
+#3 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->carritoViews()
+#4 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#5 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-06-19 23:45:00 --> Unknown column 'usaurio_id' in 'field list'
+CRITICAL - 2022-06-19 23:45:00 --> Unknown column 'usaurio_id' in 'field list'
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacqueline\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacqueline\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->guardarCompra()
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-19 23:48:55 --> Unknown column 'usaurio_id' in 'field list'
+CRITICAL - 2022-06-19 23:48:55 --> Unknown column 'usaurio_id' in 'field list'
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacqueline\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacqueline\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->guardarCompra()
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-19 23:50:02 --> Unknown column 'usaurio_id' in 'field list'
+CRITICAL - 2022-06-19 23:50:02 --> Unknown column 'usaurio_id' in 'field list'
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacqueline\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacqueline\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(160): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->guardarCompra()
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-06-19 23:56:02 --> Unknown column 'usaurio_id' in 'field list'
+CRITICAL - 2022-06-19 23:56:02 --> Unknown column 'usaurio_id' in 'field list'
+#0 C:\xampp\htdocs\jacqueline\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `ve...', 0)
+#1 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ve...')
+#2 C:\xampp\htdocs\jacqueline\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ve...')
+#3 C:\xampp\htdocs\jacqueline\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ve...', Array, false)
+#4 C:\xampp\htdocs\jacqueline\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\jacqueline\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\jacqueline\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\jacqueline\app\Controllers\Carrito_controller.php(162): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(832): App\Controllers\Carrito_controller->guardarCompra()
+#9 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Carrito_controller))
+#10 C:\xampp\htdocs\jacqueline\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\jacqueline\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}

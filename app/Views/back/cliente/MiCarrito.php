@@ -6,8 +6,9 @@
     $cart = \Config\Services::Cart();
     $cart = $cart->contents();
     if (empty($cart)) {
-        echo "Carrito vacio";
-    
+        echo "<h1 class='text-center'> Carrito vacio </h1><br><br>";
+       
+        echo "<div class='d-block mx-auto'><img  class='d-block mx-auto' src='public/assets/img/a2.jpg' ><br><br></div> ";
     } else {
     ?>
 </div>
