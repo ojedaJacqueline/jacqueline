@@ -64,10 +64,14 @@
               </div>
             <?php } ?>
           </div>
+          <br>
+          <br>
+          <div class="d-grid">
           <input type="submit" value="crear usuario" class="btn btn-success">
-          <input type="reset" value="cancelar" class="btn btn-danger">
+          <br>
+          <input  type="reset" value="cancelar" class="btn btn-danger">
         </div>
-    
+        </div>
       </form>
       </div>
        <!-- TABLA REGISTRO -->

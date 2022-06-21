@@ -90,6 +90,8 @@ $routes->post('editvalidation/(:num)', 'Producto_controller::edit_validation/$1'
 /* alta producto */
 $routes->post('env-addProd','Producto_controller::store');
 
+$routes->get('facturacion','ventasController::facturacion');
+
 
 
 /* --------------------------------------------- */
@@ -105,7 +107,6 @@ $routes->get('muestro', 'Carrito_controller::guardarCompra');
 $routes->get('borrar', 'Carrito_controller::eliminar_carrito');
 
 $routes->get('exitodecompra', 'Home::exito');
-
 
 
 

@@ -9,7 +9,7 @@
             <div class="card-header">Editar Producto</div>
             <div class="card-body">
             <?php $validation = \Config\Services::validation();?>
-                <form method="post" action="<?php echo base_url('Producto_controller/edit_validation'); ?>">
+                <form method="post" action="<?php echo base_url('Producto_controller/edit_validation/'.$prod_data['id'])?>">
                     <div class="form-group">
                         <label>Categoria</label>
 
@@ -31,7 +31,8 @@
                      <div class="form-group">
                         <label>imagen</label>
                         <img height="60px" width="60px"  src="<?= base_url('public/assets/uploads/'.$prod_data['imagen'])?>"alt="imagen de producto">
-                        <input type="file" id="imagen" name="imagen" class="form-control" >
+                        
+                        <input type="file" id="imagen" name="imagen" class="form-control"accept="image/*" >
 
                         <div>
                     </div>
@@ -121,6 +122,7 @@
                         ?>
                         </div>
                     </div>
+                    <br>
                     <br>
                     <div class="form-group">
                         <input type="hidden" name="id" value="<?php echo $prod_data["id"]; ?>" />

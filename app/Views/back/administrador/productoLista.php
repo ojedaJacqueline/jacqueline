@@ -150,8 +150,9 @@
 
           <div class="d-grid">
           <div class="form-group mt-3">
-                        <button type="submit" class="btn btn-primary">Agregar</button>
-                        <a class="btn btn-primary" href="<?php echo base_url('produc')?>">Cancelar</a>
+                        <button  type="submit" class="btn btn-primary">Agregar</button>
+                        <div class="form-group mt-3">
+                        <a class="btn btn-warning" href="<?php echo base_url('produc')?>">Cancelar</a>
                     </div>
         </form>
       </div>

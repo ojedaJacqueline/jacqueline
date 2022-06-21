@@ -111,9 +111,56 @@ public 	function add_validation()
             
     }
     /* otra forma */
-     public  function edit_validation(){
+     public  function edit_validation($id){
+
+        $product = new Producto_Model();
+        $prod_item= $product->find($id);
+        $old_img_name = $prod_item['imagen'];
+    //hasta aca hay datos 
+        $file = $this->request->getFile('imagen');
+//ya no hay datos
+print_r($file);die;
+        if($file->isValid() && !$file->hasMoved()){
+
+            if(file_exists("public/assets/uploads/".$old_img_name)){
+                unlink("public/assets/uploads/".$old_img_name);
+            }
+            $imageName = $file->getRandomName();
+            $file->move('public/assets/uploads',$imageName);
+        }
+        else{
+            $imageName = $old_img_name;
+        }
+        $data = [
+            'categoria_id' => $this->request->getPost('categoria_id'),
+            'stock'=> $this->request->getPost('stock'),
+           'nombreProd' => $this->request->getPost('nombreProd'),
+           'imagen'=>$imageName,//obtener el nombre de la img
+           'precio'=>$this->request->getPost('precio'),
+           'precio_venta'=> $this->request->getPost('precio_venta'),
+          
+      ];
+        $product->update($id, $data);
+        return redirect()->to('CRUD-Productos');
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         // Se obtiene la clave unica --> "id"
-     $input = $input = $this->validate(
+    /*  $input = $input = $this->validate(
         [
             //'categoria_id'=>'required',
             'nombreProd'=>'required|min_length[2]',
@@ -164,7 +211,7 @@ public 	function add_validation()
 
             return $this->response->redirect(site_url('/produc'));
         }
-
+ */
 
 
 

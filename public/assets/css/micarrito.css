@@ -167,7 +167,7 @@ li.subtotal:before {
   width: 45%;
 }
 
-.remove button {
+.remove .utton {
   background-color: transparent;
   color: #777;
   float: none;
@@ -356,7 +356,7 @@ aside {
     margin-top: 0.75rem;
     position: relative;
   }
-  .remove button {
+  .remove .utton {
     padding: 0;
   }
   .summary {

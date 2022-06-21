@@ -24,7 +24,7 @@
                 <a class="nav-link" href="<?php echo base_url('consultas'); ?>">Consultas</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?php echo base_url('#'); ?>">Ventas</a>
+                <a class="nav-link" href="<?php echo base_url('facturacion'); ?>">Ventas</a>
               </li>
               <li class="nav-item">
                 <a href="<?php echo base_url('/salir'); ?>"><i type="button" class="btn btn-outline-danger me-md-2">Salir</i></a>

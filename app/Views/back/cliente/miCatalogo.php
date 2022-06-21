@@ -2,7 +2,7 @@
 
 
 <div class="color  mt-3 mt-4 p-5">
-  <h1>Catálogo</h1>
+  <h1>SACOS</h1>
 </div>
 
 <section class=" row shop container ">

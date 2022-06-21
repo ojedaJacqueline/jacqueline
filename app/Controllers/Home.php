@@ -151,6 +151,15 @@ echo view('front/footer');
     echo view('front/footer');
  } 
 
+ public  function hola()
+ {
+  $data['titulo']='ventas';
+    echo view('front/head',$data);
+    echo view('front/navBar');
+    echo view('back/administrador/hola');
+    echo view('front/footer');
+ } 
+
 
 
 }

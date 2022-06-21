@@ -8,42 +8,30 @@
         </div>
         <div class="p-4">
           <table class="table alingn-middle">
-            <thead>
+          
               <tr>
-                <th scope="col">#</th>
-                <th scope="col">Categoria</th>
-                <th scope="col">Nombre producto</th>
-                <th scope="col">Precio</th>
-                <th scope="col">Total</th>
+                <th>ID</th>
+                <th>Fecha de compra</th>
+                <th>Usuarios</th>
+                <th>Total de la compra</th>
               </tr>
-            </thead>
-            <tbody>
+          
+            <?php foreach ($venta_data as $key => $vent) :?>
+           
               <tr>
-                <td scope="row">1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
+                <td ><?= $vent["id"] ?></td>
+                <td><?= $vent["fecha"] ?></td>
+                <td><?= $vent["usuarios_id"] ?></td>
+              
+                <td><?= $vent["total_venta"] ?></td>
               </tr>
-              <tr>
-                <td scope="row">1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
-              </tr>
-              <tr>
-                <td scope="row">1</td>
-                <td>roger gomez</td>
-                <td>3fvfd@gmail.com</td>
-                <td>leo</td>
-                <td>leo</td>
-              </tr>
-            </tbody>
+         
+               
+          
+              <?php endforeach; ?>
           </table>
         </div>
       </div>
     </div>
   </div>
 </div>
-<br>
