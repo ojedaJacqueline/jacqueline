@@ -28,7 +28,6 @@
                 <tr >
                     <th>N item</th>
                     <th>Nombre</th>
-                    <th>Imagen</th>
                     <th>Cantidad</th>
                     <th>Subtotal</th>
                 </tr>
@@ -46,7 +45,7 @@
                   
                         <td> <?php echo $item['name']; ?></td>
                      
-                        <td> <img class="img-fluid alto_min"  src="<?= base_url('public/assets/uploads/'. $item['imagen']) ?>" alt=""> </td>
+                       
                     
                         <td><?php echo $item['qty']; ?></td>
 
@@ -74,7 +73,7 @@
 <!-- finalizar compra -->
     <aside>
     <div class="summary">
-        <div class="summary-total-items"><span class="total-items"></span> Finalizar Compra</div>
+        <div class="summary-total-items " style="color:#2e9e28;"><span class="total-items"  ></span> Finalizar Compra</div>
         <div class="summary-subtotal">
           <div class="summary-promo hide">
             <div class="promo-title">Promotion</div>

@@ -9,18 +9,14 @@
             <div class="card-header">Editar Producto</div>
             <div class="card-body">
             <?php $validation = \Config\Services::validation();?>
-                <form method="post" action="<?php echo base_url('Producto_controller/edit_validation/'.$prod_data['id'])?>">
+                <form method="post" enctype="multipart/form-data" action="<?php echo base_url('Producto_controller/edit_validation/'.$prod_data['id'])?>">
                     <div class="form-group">
                         <label>Categoria</label>
 
                         <select class="form-select" name="categoria_id">
-                        <?php foreach ($categorias as $key => $cate) :?>
-                            <?php if ($cate['id'] == $prod_data['categoria_id']) :?>
-                                <option value="<?php $cate['id']?>" selected> <?= $cate["descripcion"] ?> </option>
-                                <?php else: ?>
-                                <option  value="<?php $cate ["id"] ?>"> <?= $cate["descripcion"] ?> </option>
-                        <?php endif;
-                             endforeach; ?>
+                        <option value="1" >sacos</option>
+                            <option value="2">carteras</option>
+                            <option value="3">pantalones</option>
                        </select>
 
                         <!-- Error -->

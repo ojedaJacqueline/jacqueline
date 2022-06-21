@@ -5,13 +5,13 @@
   <h1>SACOS</h1>
 </div>
 
-<section class=" row shop container ">
+<section class=" row shop container " style="margin: 0.2em 10%  ;">
 <!-- Catalogo-->
 <?php foreach ($producto as $row){?>
   <?php  if($row["eliminado"]=='NO' && $row["categoria_id"]==1) {?>
       <div class="shop-content mt-4 mt-5 p-5" style="width: 50%  ;">
         <!-- box1 -->
-        <div class="product-box"style="width: 80%" class="product-img">
+        <div class=" margin-righ product-box"style="width: 80%" class="product-img">
 
           <img class=" alto_min" style="width: 80%" src="<?= base_url('public/assets/uploads/'. $row["imagen"]) ?>" alt="" class="product-img">
           <h2 class="product-title"><?php echo $row['nombreProd']; ?></h2>
@@ -57,4 +57,4 @@
       <?php } ;?> 
      
       </section>
-      
+    

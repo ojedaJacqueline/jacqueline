@@ -119,7 +119,7 @@ public 	function add_validation()
     //hasta aca hay datos 
         $file = $this->request->getFile('imagen');
 //ya no hay datos
-print_r($file);die;
+
         if($file->isValid() && !$file->hasMoved()){
 
             if(file_exists("public/assets/uploads/".$old_img_name)){
@@ -131,6 +131,7 @@ print_r($file);die;
         else{
             $imageName = $old_img_name;
         }
+   
         $data = [
             'categoria_id' => $this->request->getPost('categoria_id'),
             'stock'=> $this->request->getPost('stock'),
@@ -141,192 +142,12 @@ print_r($file);die;
           
       ];
         $product->update($id, $data);
-        return redirect()->to('CRUD-Productos');
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        // Se obtiene la clave unica --> "id"
-    /*  $input = $input = $this->validate(
-        [
-            //'categoria_id'=>'required',
-            'nombreProd'=>'required|min_length[2]',
-            'imagen'=> 'required',
-            'stock'=>'required',
-            'stock_min'=>'required',
-            'precio'=>'required',
-            'precio_venta'=>'required',
-        ]);
-
-        $productos = new Producto_Model();
-
-     if(!$input)
-        {
-            $dato['titulo'] = 'Editar';
-            echo view('front/head',$dato);
-            echo view('front/navbar');
-            echo view('back/administrador/modificarProd',[
-                'error' => $this->validator
-            ]);
-            echo view('front/footer');
-        } 
-        else 
-        {
-         
-            $id = $this->request->getVar('id');
-            $datos=  $productos->where('id',$id)->first();
-
-
-
-            $img = $this->request->getFile('imagen');
-            $nombre_aleatorio = $img->getRandomName(); 
-            $img->move(ROOTPATH.'public/assets/uploads',$nombre_aleatorio);
-       
-            $data = [
-                'categoria_id' => $this->request->getVar('categoria_id'),
-                'stock'=> $this->request->getVar('stock'),
-               'nombreProd' => $this->request->getVar('nombreProd'),
-               'imagen'=>$img->getName(),//obtener el nombre de la img
-               'precio'=>$this->request->getVar('precio'),
-               'precio_venta'=> $this->request->getVar('precio_venta'),
-               'stock_min'=> $this->request->getVar('stock_min'),
-               'eliminado'=> 'NO',
-              ];
-
-              $productos->update($id,$data);
-
-
-            return $this->response->redirect(site_url('/produc'));
-        }
- */
-
-
-
-
-
-    }
-
-
-
-    /* ddddddddddddddddddd 
-    public function edit_validation(){
-        $product = new Producto_model();
-        $id = $this->request->getPost('id');
-        $prod_item= $product->find($id);
-        $old_img_name = $prod_item['imagen'];
-
-
-        $file = $this->request->getFile('imagen');
-     print_r($file);die;
-        if($file->isValid() && !$file->hasMoved()){
-            if(file_exists("public/assets/uploads/".$old_img_name)){
-                unlink("public/assets/uploads/".$old_img_name);
-            }
-            $imageName = $file->getRandomName();
-            $file->move('public/assets/uploads',$imageName);
-        }
-        else{
-            $imageName = $old_img_name;
-        }
-        $data = [
-            'categoria_id'   => $this->request->getPost('categoria_id'),
-            'nombreProd'  => $this->request->getPost('nombreProd'),
-            'imagen'=> $imageName,
-            'stock'  => $this->request->getPost('stock'),
-            'stock_min'  => $this->request->getPost('stock_min'),
-            'precio'  => $this->request->getPost('precio'),
-            'precio_venta'  => $this->request->getPost('precio_venta'),
-        ];
-        $product->update($id, $data);
         return redirect()->to('/produc');
 
+
+
+
     }
-
-*/
-
-
-//recibio una solicitud de formulario de datos de actualización
-  /*  public  function edit_validation()
-    {
-    	helper(['form', 'url']);
-        
-        
-
-        $error = $this->validate([
-            'nombreProd'=>'required|min_length[2]',
-            'stock'=>'required',
-            'stock_min'=>'required',
-            'precio'=>'required',
-            'precio_venta'=>'required',
-        ], [           
-            'nombreProd'=>["required"=>"Debe ingresar nombre del producto"],
-             'stock'=>["required"=>"Debe ingresar stock del producto"],
-             'stock_min'=>["required"=>"Debe ingresar stroc minimo del producto"],
-             'precio'=>["required"=>"Debe ingresar precio del producto"],
-             'precio_venta'=>["required"=>"Debe ingresar precio venta"],
-            ]
-    );//validado los datos del formulario 
-
-        $prodModel = new Producto_Model();
-
-        $id = $this->request->getVar('id');
-
-        $prod_item= $prodModel->find($id);
-        $old_img_name = $prod_item['imagen'];
-
-        $file = $this->request->getFile('imagen');
-        if($file->isValid() && !$file->hasMoved()){
-            if(file_exists("public/assets/uploads/".$old_img_name)){
-                unlink("public/assets/uploads/".$old_img_name);
-            }
-            $imageName = $file->getRandomName();
-            $file->move('public/assets/uploads',$imageName);
-        }else{
-            $imageName = $old_img_name;
-        } if(!$error) {
-        	$data['prod_data'] = $prodModel->where('id', $id)->first();
-        	$data['error'] = $this->validator;
-          
-            $crudModel  = new Categoria_model();
-            $data['categorias'] = $crudModel->orderBy('id', 'DESC')->paginate(100);
-    
-            $dato['titulo'] = 'Editar';
-             echo view('front/head',$dato);
-             echo view('front/navbar');
-             echo view('back/administrador/modificarProd',$data);
-             echo view('front/footer');
-        } else {
-           $data = [
-                'categoria_id'   => $this->request->getVar('categoria_id'),
-                'nombreProd'  => $this->request->getVar('nombreProd'),
-                'imagen'      =>$this->$file->getName(),//obtener el nombre de la img
-                'stock'  => $this->request->getVar('stock'),
-                'stock_min'  => $this->request->getVar('stock_min'),
-                'precio'  => $this->request->getVar('precio'),
-                'precio_venta'  => $this->request->getVar('precio_venta'),
-	        ];
-
-        	$prodModel->update($id, $data); //ha actualizado los datos de la tabla mysql
-
-        	$session = \Config\Services::session();
-
-            $session->setFlashdata('success', 'User Data Updated');
-
-        	return $this->response->redirect(site_url('/produc'));
-        } } */ 
     
 /*--------------------------- //FIN// EDITAR PRODUCTO ---------*/
 

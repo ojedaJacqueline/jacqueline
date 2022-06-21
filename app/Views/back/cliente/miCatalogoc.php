@@ -2,7 +2,7 @@
   <h1>CARTERAS</h1>
 </div>
 
-<section class=" row shop container ">
+<section class=" row shop container "style="margin: 0.2em 10%  ;">
 <!-- Catalogo-->
 <?php foreach ($producto as $row){?>
   <?php  if($row["eliminado"]=='NO' && $row["categoria_id"]==2) {?>

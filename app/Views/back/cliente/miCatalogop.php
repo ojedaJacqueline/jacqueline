@@ -4,7 +4,7 @@
 
 
 
-<section class=" row shop container ">
+<section class=" row shop container "style="margin: 0.2em 10%  ;">
 <!-- Catalogo-->
 
 <?php foreach ($producto as $row){?>

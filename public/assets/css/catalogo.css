@@ -12,11 +12,13 @@
   */
 :root{
     --main-color: #fd4646;
-    --text-color:#171427;
-    --bg-color:#fff;
+    --text-color:#58b355;
+    --text-color:#2e9e28;
+    --bg-color:rgb(255, 255, 255);
 }
 section{
     padding: 4rem 0 3rem;
+   
 }
 
 
